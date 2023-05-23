@@ -8,6 +8,9 @@ function Menu(){
 
           <div id="menuRow">
             <div id="cafeMenu">
+              <img/>
+              <h2>Nuestros cafes</h2>
+              <p>Lorem ipsum dolor sit amet</p>
 
             </div>
             <div id="postresMenu">

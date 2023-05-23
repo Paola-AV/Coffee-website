@@ -7,6 +7,7 @@ import Galeria from './components/Galeria';
 import Menu from './components/menu';
 import Contacto from './components/Contacto';
 import {FaUser} from "react-icons/fa";
+import Footer from './components/Footer';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
     <Menu/>
     <Contacto/>
     <NextArrow/>
+    <Footer/>
     </div>
   );
 }
