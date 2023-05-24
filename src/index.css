@@ -10,8 +10,9 @@ body {
   font-weight:"300";
   margin: 0;
   height: 915px;
-  background: rgb(224,155,72);
+
   background: linear-gradient(0deg, rgba(224,155,72,0.850577731092437) 0%, rgba(255,239,205,1) 100%); 
+  background-color:#e6ae69;
 }
 
 
@@ -141,12 +142,14 @@ color: black;
 }
 
 /*starts the arrow css*/
-#arrow{width: 100%; display: flex; flex-direction: row; justify-content: center; margin-top: 3.5rem;   transition: 0.5s;}
+#arrow{width: 100%; display: flex; flex-direction: row; justify-content: center;  transition: 0.5s; background-color:#e6ae69; padding-top: 2rem;}
 
+/*
 #arrow:hover{
   margin-top: 4.5rem;
   width:"36px"; height:"20px";
   transition: 1s;
+  background: transparent;
 }
 
 /*starts the Historia css*/
@@ -217,6 +220,7 @@ color: black;
   justify-content: center;
   padding-top: 18rem;
   background-color: #e6ae69;
+ 
 }
 
 #tittleGal{
@@ -257,12 +261,73 @@ color: black;
 
 /*starts menu css*/
 
+#menu{
+  font-family: Lucida Bright,Georgia,serif;
+  background-color: #e6ae69;
+  padding-bottom: 6rem;
+  padding-top: 6rem;
+}
+
+#menuRow{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+#imgMenu{
+  width: 450px;
+  height: 275px;
+}
+#cafeMenu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFEFCD; 
+  margin: 2rem;
+  height: 475px;
+}
+
+#postresMenu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFEFCD; 
+  margin: 2rem;
+  height: 475px;
+}
+
+#menuBtn{
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 2rem;
+  color: #FFEFCD;
+  background-color: #636845;
+  border-radius: 20px;
+}
+
+#tittleMenu{
+  font-size: 10rem;
+  padding-top: 5rem;
+  color: #FFEFCD;
+  opacity: 0.3;
+ 
+}
+
+#ItemTittle{
+  padding: 0.5rem;
+}
+
+
+
 
 /*starts contacto css*/
 #contactoDiv{
   background-color: #FFEFCD; 
   align-items: center;
   justify-content: center;
+  padding-bottom: 5rem;
+  height: 800px;
 }
 
 #contactoTittle{
@@ -304,7 +369,11 @@ color: black;
   width: 1090px;
   border: none;
   border-radius: 20px;
+  padding: 1rem;
 }
+
+#mensajeInput:focus {outline:none !important}
+
 .inputC{
  
   height: 30px;
@@ -312,19 +381,33 @@ color: black;
   border: none;
   border-radius: 5px;
 }
+
+.inputC:focus {outline:none !important}
+
 #mensaje{
   transform: translateX(-30rem);
 }
 #icon{
   position: relative;
-  transform: translate(0.5rem, 1.4rem);
+ 
 
 }
+
+#iconInput{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding-left: 0.5rem;
+  align-items: center;
+  border-radius: 5px;
+}
+
+
 /*starts footer css*/
 #footer{
   display: flex;
   flex-direction: row;
-  margin-top: 3rem;
+
   background-color: #E09132;
 }
 

@@ -15,11 +15,15 @@ function App() {
     <div>
     <Navbar/>
     <Inicio/>
-    <Historia/> 
-    <Galeria/>
-    <Menu/>
-    <Contacto/>
     <NextArrow/>
+    <Historia/> 
+    <NextArrow/>
+    <Galeria/>
+    <NextArrow/>
+    <Menu/>
+    <NextArrow/>
+    <Contacto/>
+   
     <Footer/>
     </div>
   );
