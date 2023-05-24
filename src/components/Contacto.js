@@ -12,26 +12,33 @@ return(
             <h1 id="contactoTittle">Contacto</h1>
             <div id="input">
                 <div class="inputDiv">
-                <label>Nombre</label>
-                <FaUser id="icon"/>
-                <input type="text" class="inputC" ></input>
+                    <label>Nombre</label>
+                    <div id="iconInput">
+                        <FaUser id="icon" />
+                        <input type="text" class="inputC" ></input>
+                    </div>
                 </div>
-                
-               <div class="inputDiv">
-               <label>Correo</label>
-               <FaRegEnvelope id="icon"/>
-                <input type="text" class="inputC" ></input>
-               </div>
+
                 <div class="inputDiv">
-                <label>Telefono</label>
-                <BsFillTelephoneFill id="icon"/>
-                <input type="text" class="inputC" ></input>
+                    <label>Correo</label>
+                    <div id="iconInput">
+                        <FaRegEnvelope id="icon" />
+                        <input type="text" class="inputC" ></input>
+                    </div>
+                </div>
+
+                <div class="inputDiv">
+                    <label>Telefono</label>
+                    <div id="iconInput">
+                        <BsFillTelephoneFill id="icon"/>
+                        <input type="text" class="inputC" ></input>
+                    </div>
                 </div>
                 
             </div>
             <div id="inputMensaje">
              <label id="mensaje">Mensaje</label>
-             <input type="text" id="mensajeInput" ></input>
+             <textarea type="text" id="mensajeInput" ></textarea>
 
             </div>
         </div>
