@@ -8,6 +8,7 @@ import Menu from './components/menu';
 import Contacto from './components/Contacto';
 import {FaUser} from "react-icons/fa";
 import Footer from './components/Footer';
+import ContactScreen from './components/ContactScreen';
 
 
 function App() {

@@ -38,10 +38,14 @@ return(
             </div>
             <div id="inputMensaje">
              <label id="mensaje">Mensaje</label>
-             <textarea type="text" id="mensajeInput" ></textarea>
-
+             <textarea type="text" id="mensajeInput" ></textarea> 
+            </div>
+            <div id="BtnDiv">
+                <button class="btnContacto">Nosotros</button>
+                <button class="btnContacto">Contacto</button>
             </div>
         </div>
+       
     </section>
 
 )
