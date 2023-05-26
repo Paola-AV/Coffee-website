@@ -9,6 +9,7 @@ import Contacto from './components/Contacto';
 import {FaUser} from "react-icons/fa";
 import Footer from './components/Footer';
 import ContactScreen from './components/ContactScreen';
+import Nosotros from './components/Nosotros';
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
     <Menu/>
     <NextArrow/>
     <Contacto/>
-   
+    <Nosotros/>
     <Footer/>
     </div>
   );
