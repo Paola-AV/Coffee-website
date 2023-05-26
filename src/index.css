@@ -442,3 +442,10 @@ color: black;
   padding: 2rem;
  padding-left: 9.5rem;
 }
+
+/*nosotros css*/
+
+#nosotrosSec{
+  display: flex;
+  flex-direction: column;
+}
