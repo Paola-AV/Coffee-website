@@ -1,7 +1,45 @@
-
-
+import Carousel from 'react-bootstrap/Carousel';
 
 function Galeria() {
+  return (
+    <section id='galeria'>
+        <div id="tittleGal">
+          <h1 id="tittleGaleria">Galeria</h1>
+      </div><div id="bow"></div>
+      <div id='centerC'>
+              <Carousel id="carHolder">
+                  <Carousel.Item id='carousel'>
+                      <img
+                          className="d-block w-100"
+                          src="cafeSol.PNG"
+                          alt="First slide"
+                          class="carImg" />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                      <img
+                          className="d-block w-100"
+                          src="chemex.PNG"
+                          alt="Second slide"
+                          class="carImg" />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                      <img
+                          className="d-block w-100"
+                          src="tostadora.PNG"
+                          alt="Third slide"
+                          class="carImg" />
+                  </Carousel.Item>
+              </Carousel>
+          </div>
+    </section>
+      
+  );
+}
+
+export default Galeria;
+
+
+/*function Galeria() {
 
     return (
 
@@ -10,30 +48,24 @@ function Galeria() {
                 <h1 id="tittleGaleria">Galeria</h1>
             </div>
             <div id="bow"></div>
-            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="roast.PNG" class="d-block w-100" alt="granos de cafe en tostadora" />
+                        <img src="tostadora.PNG" class="d-block w-100" alt="..."/>
                     </div>
                     <div class="carousel-item">
-                        <img src="chemex.PNG" class="d-block w-100" alt="persona oliendo cafe en metodo chemex" />
+                        <img src="cafeSol.PNG" class="d-block w-100" alt="..."/>
                     </div>
                     <div class="carousel-item">
-                        <img src="cup.PNG" class="d-block w-100" alt="taza de cafe" />
+                        <img src="chemex.PNG" class="d-block w-100" alt="..."/>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="18.66" height="34.655" viewBox="0 0 18.66 34.655">
-                        <path id="Flecha_Abajo" data-name="Flecha Abajo" d="M17.327,0,0,18.66l17.327-6.255L34.655,18.66Z" transform="translate(0 34.655) rotate(-90)" fill="#424530" />
-                    </svg></span>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18.66" height="34.655" viewBox="0 0 18.66 34.655">
-                            <path id="Flecha_Abajo" data-name="Flecha Abajo" d="M17.327,18.66,0,0,17.327,6.255,34.655,0Z" transform="translate(0 34.655) rotate(-90)" fill="#424530" />
-                        </svg>
-                    </span>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
@@ -45,4 +77,4 @@ function Galeria() {
 
 }
 
-export default Galeria;
+export default Galeria;*/
