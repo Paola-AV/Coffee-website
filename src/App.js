@@ -10,6 +10,7 @@ import {FaUser} from "react-icons/fa";
 import Footer from './components/Footer';
 import ContactScreen from './components/ContactScreen';
 import Nosotros from './components/Nosotros';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
 function App() {
