@@ -607,25 +607,30 @@ color: black;
   border: 10px solid #636845 ;
   transform: translate(19rem,-11rem);
 }
-/*starts contact screen css*/
-#map{
+
+
+/*starts contact screen*/
+
+#mapDiv{
   display: flex;
   flex-direction: column;
-  width: 100%;
-  justify-content: center;
   align-items: center;
 }
-#mapIcons{
-  width: 100%;
+iframe{
+  align-self: center;
+}
+.mapIconDiv{
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  margin-top: 2rem;
+  margin-right: 8rem;
 }
-.iconMaps{
-  width: 3rem;
-  height: 3rem;
-  padding: 0.5rem;
+
+#mapIcon{
+  height: 4rem;
+  width: 4rem;
   color: #424530;
-  margin-bottom: 2rem;
-  margin-top: 1rem;
+  padding: 1rem;
+  margin-bottom: 4rem;
 }
