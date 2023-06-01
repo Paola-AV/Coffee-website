@@ -607,3 +607,30 @@ color: black;
   border: 10px solid #636845 ;
   transform: translate(19rem,-11rem);
 }
+
+/*starts contact screen*/
+
+#mapDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+iframe{
+  align-self: center;
+}
+.mapIconDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 2rem;
+  margin-right: 8rem;
+}
+
+#mapIcon{
+  height: 4rem;
+  width: 4rem;
+  color: #424530;
+  padding: 1rem;
+  margin-bottom: 4rem;
+ 
+}
