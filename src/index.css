@@ -607,3 +607,25 @@ color: black;
   border: 10px solid #636845 ;
   transform: translate(19rem,-11rem);
 }
+/*starts contact screen css*/
+#map{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+#mapIcons{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.iconMaps{
+  width: 3rem;
+  height: 3rem;
+  padding: 0.5rem;
+  color: #424530;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
