@@ -632,5 +632,115 @@ iframe{
   width: 4rem;
   color: #424530;
   padding: 1rem;
-  margin-bottom: 4rem;
+  margin-bottom: 4rem; 
+}
+
+/*starts galeria screen css*/
+#galSec{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  background-color: #e6ae69;
+  padding-bottom: 8rem;
+}
+
+#galeriaTitle{
+  color: #424530;
+  font-family: Lucida Bright,Georgia,serif;
+  font-size: 4rem;
+  padding: 2rem;
+}
+/*first section of the layout*/
+#firstSec{
+  display: flex;
+  flex-direction: row;
+  margin-left: 15rem;
+  width: 100%;
+}
+/*first column*/
+.colTwo{
+  display: flex;
+  flex-direction: column;
+}
+.firstCol{
+  width: 392px;
+  height: 693px;
+  padding: 0.7rem;
+}
+/*second column*/
+#five{
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+}
+
+.rowTwo{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.firstRow{
+  width: 374px;
+  height: 374px;
+  padding: 0.5rem;
+}
+
+#medioCol{
+  width: 748px;
+  height: 512px;
+  padding: 0.5rem;
+}
+
+#secondCol1{
+  width: 488px;
+  height: 488px;
+  padding: 0.5rem;
+}
+
+#secondCol2{
+  width: 260px;
+  height: 488px;
+  padding: 0.5rem;
+}
+/*the big middle image*/
+#middleImg{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+#imgMiddle{
+  width: 1120px;
+  height: 990px;
+  margin-left: 15.7rem;
+}
+/*second section of the layout*/
+#SecondSec{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-left: 15rem;
+}
+#twoColumn{
+  display: flex;
+  flex-direction: column;
+}
+/*images, first column second section*/
+#secondColumn1{
+  width: 580px;
+  height: 580px;
+  padding: 0.5rem
+}
+/*images, second column, second section*/
+#secondColumn2-1{
+  width: 560px;
+  height: 745px;
+  padding: 0.5rem
+}
+#secondColumn2-2{
+  width: 560px;
+  height: 415px;
+  padding: 0.5rem
 }

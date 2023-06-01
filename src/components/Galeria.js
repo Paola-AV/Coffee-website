@@ -1,6 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel';
+import { useNavigate } from "react-router-dom";
 
 function Galeria() {
+    const navigate=useNavigate()
   return (
     <section id='galeria'>
         <div id="tittleGal">
@@ -10,6 +12,7 @@ function Galeria() {
               <Carousel id="carHolder">
                   <Carousel.Item id='carousel'>
                       <img
+                          onClick={()=>navigate('Galeria')}
                           className="d-block w-100"
                           src="cafeSol.PNG"
                           alt="First slide"
@@ -17,6 +20,7 @@ function Galeria() {
                   </Carousel.Item>
                   <Carousel.Item>
                       <img
+                          onClick={()=>navigate('Galeria')}
                           className="d-block w-100"
                           src="chemex.PNG"
                           alt="Second slide"
@@ -24,6 +28,7 @@ function Galeria() {
                   </Carousel.Item>
                   <Carousel.Item>
                       <img
+                          onClick={()=>navigate('Galeria')}
                           className="d-block w-100"
                           src="tostadora.PNG"
                           alt="Third slide"
