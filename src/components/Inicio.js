@@ -1,8 +1,8 @@
-
+import { useNavigate } from "react-router-dom";
 
 
 function Inicio() {
-
+    const navigate = useNavigate()
     return (
         <section class="row align-items-start" id="inicio">
             <div class="col-4" id="col1">
@@ -11,8 +11,8 @@ function Inicio() {
                     <p class="pInicio">Lorem ipsum dolor sit amet,<br/>consectetur adipiscing elit</p>
                 </div>
                 <div id="butInicio">
-                <button class="btnInicio">Nosotros</button>
-                <button  class="btnInicio" id="btn2">Contacto</button>
+                <button onClick={() => navigate('Nosotros')} class="btnInicio">Nosotros</button>
+                <button onClick={() => navigate('ContactScreen')} class="btnInicio" id="btn2">Contacto</button>
                 </div>
                
             </div>
