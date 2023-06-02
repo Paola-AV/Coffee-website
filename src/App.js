@@ -8,13 +8,16 @@ import Contacto from './components/Contacto';
 import Footer from './components/Footer';
 import ContactScreen from './components/ContactScreen';
 import Nosotros from './components/Nosotros';
+
 import GaleriaScreen from './components/GaleriaScreen'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 
 
 function App() {
   
   return (
+
     <>
       <Navbar/>
       <Routes>
@@ -35,6 +38,4 @@ export default App;
 /*  
     <Inicio/>
     <Historia/> 
-    <Galeria/>   
-
     */

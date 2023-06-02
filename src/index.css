@@ -632,6 +632,7 @@ label{
   transform: translate(19rem,-11rem);
 }
 
+
 /*starts contact screen*/
 
 #mapDiv{
@@ -655,8 +656,7 @@ iframe{
   width: 4rem;
   color: #424530;
   padding: 1rem;
-  margin-bottom: 4rem;
- 
+  margin-bottom: 4rem; 
 }
 
 /*starts galeria screen css*/
