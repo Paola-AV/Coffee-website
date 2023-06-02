@@ -41,8 +41,8 @@ return(
              <textarea type="text" id="mensajeInput" ></textarea> 
             </div>
             <div id="BtnDiv">
-                <button class="btnContacto">Nosotros</button>
-                <button class="btnContacto">Contacto</button>
+                <button class="btnContacto">Enviar</button>
+                <button class="btnContacto">Whatsapp</button>
             </div>
         </div>
        

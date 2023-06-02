@@ -164,6 +164,7 @@ color: black;
   width: 100%;
 }
 
+
 #card{
   position: static;
   margin-top: 6rem;
@@ -296,6 +297,18 @@ color: black;
   width: 100%;
   justify-content: center;
 }
+#menuImgDiv{
+  width: 50%;
+}
+#menuColImg{
+  height: 100%;
+  transform: translate(-25rem,0rem);
+  border-radius: 40px 400px 400px 0px;
+  opacity: 80%;
+  border: 4rem solid  #ffefcdab ;
+
+}
+/*primera ancho, segunda alto */
 #imgMenu{
   width: 450px;
   height: 275px;
@@ -307,6 +320,7 @@ color: black;
   background-color: #FFEFCD; 
   margin: 2rem;
   height: 475px;
+  
 }
 
 #postresMenu{
@@ -392,13 +406,14 @@ color: black;
   border: none;
   border-radius: 30px;
   padding: 1rem;
+  box-shadow: 5px 5px 10px -3px #888689de;
 }
 
 #mensajeInput:focus {outline:none !important}
 
 .inputC{
  
-  height: 30px;
+  height: 50px;
   width: 348px;
   border: none;
   border-radius: 40px;
@@ -407,12 +422,12 @@ color: black;
 .inputC:focus {outline:none !important}
 
 #mensaje{
-  transform: translateX(-30rem);
+  transform: translateX(-33rem);
+  padding-bottom: 0.7rem;
 }
 #icon{
   position: relative;
- 
-
+  
 }
 
 #iconInput{
@@ -421,20 +436,29 @@ color: black;
   background-color: white;
   padding-left: 0.5rem;
   align-items: center;
-  border-radius: 5px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px -3px #888689de;
 }
 
 .btnContacto{
-  width: 10%;
+  font-family: Lucida Bright,Georgia,serif;
+  width: 7%;
   border: none;
   margin-top: 15px;
   border-radius: 20px;
-  padding: 2px;
+  padding: 1px;
   height: 4rem;
   background-color:#636845;
   font-weight: bold;
   margin-left: 4rem;
   color: white;
+}
+ 
+label{
+  font-weight: 500;
+  transform: translateX(0.7rem);
+  padding-bottom: 0.4rem;
+  font-size: 1.2rem;
 }
 
 #BtnDiv{
