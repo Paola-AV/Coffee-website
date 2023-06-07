@@ -37,6 +37,8 @@ function App() {
 export default App;
 /* <Route path='Talleres' element={<Talleres/>}/>*/
 /*  
-    <Inicio/>
-    <Historia/> 
-    */
+  separar componentes
+  stylelint
+  nav
+  responsive
+  */

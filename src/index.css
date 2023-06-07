@@ -1,6 +1,6 @@
 import
 
-*{
+* {
   font-family: Lucida Bright,Georgia,serif;
   
 }
@@ -9,23 +9,22 @@ body {
   font-family:'Courier New', Courier, monospace;
   font-weight:"300";
   margin: 0;
-  height: 915px;
+  height: 57.1875rem;
 
   background: linear-gradient(0deg, rgba(224,155,72,0.850577731092437) 0%, rgba(255,239,205,1) 100%); 
   background-color:#e6ae69;
 }
 
 
-#navBox{
+#navBox {
   padding: 0;
-  
 }
 
-.nav-item{
+.nav-item {
   margin-top: 1rem
 }
 
-.navbarHeader{
+.navbarHeader {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -35,53 +34,51 @@ body {
 }
 
 #navbarNav ul li {
-margin-left: 30px;
-margin-right: 30px;
+margin-left: 1.875rem;
+margin-right: 1.875rem;
 font-family: Lucida Bright,Georgia,serif;
 color: black;
 }
 
-#navbarNav ul li a{
+#navbarNav ul li a {
   color: black;
   font-weight: bold;
   transition: 0.5s;
   font-size: 1.8rem;
 }
 
-#navbarNav ul li a:hover{
+#navbarNav ul li a:hover {
   font-size: 2.2rem;
   transition: 0.5s;
 }
 
-#logo-nav{
+#logo-nav {
   padding: 0;
   margin-top: 0;
   width: 6.6rem;
   height: 7.2rem;
   background-color:#cd8d31;
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px ;
+  border-bottom-left-radius: 3.125rem;
+  border-bottom-right-radius: 3.125rem;
   transition: 0.5s;
 }
 
-#logo-nav:hover{
+#logo-nav:hover {
   height: 8.5rem;
   transition: 0.5s;
 }
 
-
-
 /*Starts inicio css*/
 
-#inicio{
+#inicio {
   font-family: Lucida Bright,Georgia,serif;
   margin-top: 10rem;
   margin: 0;
   width: 100%;
-  height: 750px;
+  height: 45.875rem;
 }
 
-#col1{
+#col1 {
   height: 40rem;
   display: flex;
   flex-direction: column;
@@ -89,26 +86,26 @@ color: black;
   padding-left: 5rem;
 }
 
-#col2{
+#col2 {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
 }
-#coffeeImg{
+
+#coffeeImg {
   transform: translateY(-12rem);
   margin-left: 7rem;
 }
 
-#granosImg{
+#granosImg {
   position: absolute;
   height: 15rem;
   width: 32.25rem;
-  transform: translate(-14.5rem, -30rem);
-  
+  transform: translate(-14.5rem, -30rem); 
 }
 
-#txtInicio{
+#txtInicio {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -116,46 +113,37 @@ color: black;
   margin-bottom: 1rem;
 }
 
-.pInicio{
+.pInicio {
   font-size: 1.3rem;
 }
 
-#butInicio{
+#butInicio {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
-.btnInicio{
+.btnInicio {
   width: 40%;
   border: none;
-  margin-top: 15px;
-  border-radius: 50px;
-  padding: 2px;
+  margin-top: 0.9375rem;
+  border-radius: 3.125rem;
+  padding: 0.125;
   height: 2.5rem;
   background-color: #E09132;
   font-weight: bold;
 }
 
-#btn2{
+#btn2 {
   background-color: #424530;
 }
 
 /*starts the arrow css*/
-#arrow{width: 100%; display: flex; flex-direction: row; justify-content: center;  transition: 0.5s; background-color:#e6ae69; padding-top: 2rem;}
-
-/*
-#arrow:hover{
-  margin-top: 4.5rem;
-  width:"36px"; height:"20px";
-  transition: 1s;
-  background: transparent;
-}
+#arrow {width: 100%; display: flex; flex-direction: row; justify-content: center;  transition: 0.5s; background-color:#e6ae69; padding-top: 2rem;}
 
 /*starts the Historia css*/
 
-#historia{
-  
+#historia {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -164,26 +152,25 @@ color: black;
   width: 100%;
 }
 
-
-#card{
+#card {
   position: static;
   margin-top: 6rem;
   display: flex;
   flex-direction: row;
   background-color: #FEEBC8;
-  box-shadow: 2px 5px 10px #888888c2;
-  width: 908px;
-  height: 567px;
+  box-shadow: 0.125rem 0.3125rem 0.625rem #888888c2;
+  width: 56.75rem;
+  height: 35.4375rem;
 }
 
-#tittleDiv{
+#tittleDiv {
   padding-top: 3.5rem;
   padding-left: 3.5rem;
   width: 50%;
   font-family: Lucida Bright,Georgia,serif;
 }
 
-#txtHistoria{
+#txtHistoria {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -195,47 +182,46 @@ color: black;
   font-family: Lucida Bright,Georgia,serif;
 }
 
-.historiaP{
+.historiaP {
   padding: 3rem;
  width: 370px;
  height: 292px;
 }
 
-#airpress{
+#airpress {
   position: absolute;
-  width: 495px;
+  width: 30.9375rem;
   transform: translate(-18rem, 8.5rem);
 }
 
-#block{
+#block {
   position: absolute;
-  width: 240px;
-  height: 145px;
+  width: 15rem;
+  height: 9.0625rem;
   transform: translate(20rem, -12rem);
 }
 
-#blockImg{
-  width: 285px;
-  height: 145px;
+#blockImg {
+  width: 17.8125rem;
+  height: 9.0625rem;
 }
 
 /*starts Galeria css*/
 
-#galeria{
+#galeria {
   display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: center;
   padding-top: 18rem;
   background-color: #e6ae69;
- 
 }
 
-#tittleGal{
+#tittleGal {
   position: absolute;
- 
 }
-#tittleGaleria{
+
+#tittleGaleria {
   font-size: 13rem;
   color: #FFEFCD;
   opacity: 0.3;
@@ -243,55 +229,60 @@ color: black;
   font-family: Lucida Bright,Georgia,serif;
 }
 
-#bow{
+#bow {
   position: absolute;
   width: 100%;
   background-color: #636845;
-  height: 192px;
+  height: 12rem;
   transform: translateY(12rem);
 }
-#centerC{
+
+#centerC {
   display: flex;
   flex-direction: column;
   align-items: center!important;
 }
-#carHolder{
-  width: 839px;
+
+#carHolder {
+  width: 52.4375rem;
   display: flex;
   justify-content: center!important;
   align-items: center!important;
 }
 
-.carImg{
-  width: 839px;
-  height: 577px;
+.carImg {
+  width: 52.4375rem;
+  height: 36.0625rem;
   margin: auto;
   align-self: center!important;
 }
-.carousel-inner{
+
+.carousel-inner {
   justify-content: center!important;
 }
-.carousel-item{
-  width: 839px;
-  height: 577px;
+
+.carousel-item {
+  width: 52.4375rem;
+  height: 36.0625rem;
   justify-content: center!important;
 }
-#carousel{
-  width: 839px;
-  height: 577px;
+
+#carousel {
+  width: 52.4375rem;
+  height: 36.0625rem;
   margin: auto;
 }
 
 /*starts menu css*/
 
-#menu{
+#menu {
   font-family: Lucida Bright,Georgia,serif;
   background-color: #e6ae69;
   padding-bottom: 6rem;
   padding-top: 6rem;
 }
 
-#tittleMenu{
+#tittleMenu {
   font-size: 10rem;
   padding-top: 5rem;
   color: #FFEFCD;
@@ -300,13 +291,13 @@ color: black;
  padding-left: 2.4rem;
 }
 
-.menuDiv{
+.menuDiv {
   display: flex;
   flex-direction: column;
  
 }
 
-#menuComponent{
+#menuComponent {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -315,16 +306,16 @@ color: black;
   height: 6rem;
   align-self: center;
   border-radius: 1rem;
-  box-shadow: 5px 5px 10px -3px #888689de;
+  box-shadow: 0.3125rem 0.3125rem 0.625rem -0.1875rem #888689de;
 }
 
-.columnDivMenu{
+.columnDivMenu {
   display: flex;
   flex-direction: row;
   width: 100%;
 }
 
-.columnMenu{
+.columnMenu {
   display: flex;
   flex-direction: column;
   width: 50%;
@@ -332,7 +323,7 @@ color: black;
 }
 
 
-#imgMenu{
+#imgMenu {
   position: relative;
   border-radius: 50%;
   height: 10rem;
@@ -340,16 +331,16 @@ color: black;
   transform: translate(1rem,-15rem);
 }
 
-#compMenuH{
+#compMenuH {
   padding-top: 0.8rem;
   font-size: 1.4rem;
 }
 
-#compMenuP{
+#compMenuP {
   padding-bottom: 1rem;
 }
 
-#menuBtn{
+#menuBtn {
   background-color: #424530;
   color: white;
   padding: 0.7rem;
@@ -360,17 +351,17 @@ color: black;
   margin-top: 1rem;
 }
 
-
 /*starts contacto css*/
-#contactoDiv{
+
+#contactoDiv {
   background-color: #FFEFCD; 
   align-items: center;
   justify-content: center;
   padding-bottom: 5rem;
-  height: 800px;
+  height: 50rem;
 }
 
-#contactoTittle{
+#contactoTittle {
   font-size: 6rem;
   color:#e6ae69;
   opacity: 0.3;
@@ -380,14 +371,14 @@ color: black;
   padding-bottom: 1rem;
 }
 
-#input{
+#input {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
-.inputDiv{
+.inputDiv {
   display: flex;
   flex-direction: column;
   padding: 0.5rem;
@@ -395,7 +386,7 @@ color: black;
  
 }
 
-#inputMensaje{
+#inputMensaje {
   display: flex;
   flex-direction: column;
   padding: 2rem;
@@ -404,53 +395,52 @@ color: black;
   align-items: center;
 }
 
-#mensajeInput{
-  height: 223px;
-  width: 1150px;
+#mensajeInput {
+  height: 13.9375rem;
+  width: 71.875rem;
   border: none;
-  border-radius: 30px;
+  border-radius: 1.875rem;
   padding: 1rem;
-  box-shadow: 5px 5px 10px -3px #888689de;
+  box-shadow: 0.3125rem 0.3125rem 0.625rem -0.1875rem #888689de;
 }
 
 #mensajeInput:focus {outline:none !important}
 
-.inputC{
- 
-  height: 50px;
-  width: 348px;
+.inputC {
+  height: 3.125rem;
+  width: 21.75rem;
   border: none;
-  border-radius: 40px;
+  border-radius: 2.3529rem;
 }
 
 .inputC:focus {outline:none !important}
 
-#mensaje{
+#mensaje {
   transform: translateX(-33rem);
   padding-bottom: 0.7rem;
 }
-#icon{
+
+#icon {
   position: relative;
-  
 }
 
-#iconInput{
+#iconInput {
   display: flex;
   flex-direction: row;
   background-color: white;
   padding-left: 0.5rem;
   align-items: center;
-  border-radius: 20px;
-  box-shadow: 5px 5px 10px -3px #888689de;
+  border-radius: 1.25rem;
+  box-shadow: 0.3125rem 0.3125rem 0.625rem -0.1875rem #888689de;
 }
 
-.btnContacto{
+.btnContacto {
   font-family: Lucida Bright,Georgia,serif;
   width: 7%;
   border: none;
-  margin-top: 15px;
-  border-radius: 20px;
-  padding: 1px;
+  margin-top: 0.9375rem;
+  border-radius: 1.25rem;
+  padding: 0.0625rem;
   height: 4rem;
   background-color:#636845;
   font-weight: bold;
@@ -458,14 +448,14 @@ color: black;
   color: white;
 }
  
-label{
+label {
   font-weight: 500;
   transform: translateX(0.7rem);
   padding-bottom: 0.4rem;
   font-size: 1.2rem;
 }
 
-#BtnDiv{
+#BtnDiv {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -473,35 +463,33 @@ label{
 }
 
 /*starts footer css*/
-#footer{
+
+#footer {
   display: flex;
   flex-direction: row;
-
-  background-color: #E09132;
+background-color: #e6ae69;
 }
 
-#logo{
-
+#logo {
   transform: translate(1rem, -6rem);
-  width: 197px;
-  height: 197px;
- 
+  width: 12.3125rem;
+  height: 12.3125rem;
 }
 
-.footerDiv{
+.footerDiv {
   padding: 2rem;
  padding-left: 9.5rem;
 }
 
 /*nosotros css*/
 
-#nosotrosSec{
+#nosotrosSec {
   display: flex;
   flex-direction: column;
   background-color: #e6ae69;
 }
 
-#aboutUsTittle{
+#aboutUsTittle {
   font-size: 5rem;
   font-family: Lucida Bright,Georgia,serif;
   align-self: flex-end;
@@ -510,16 +498,16 @@ label{
   padding-top: 6rem;
   padding-bottom: 4rem;
 }
-#TittleColor1{
+
+#TittleColor1 {
   font-size: 5rem;
   font-family: Lucida Bright,Georgia,serif;
   align-self: flex-end;
-  
   font-weight: lighter;
   color: #424530;
 }
 
-#aboutRow{
+#aboutRow {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -527,7 +515,8 @@ label{
   transform: translateX(3rem);
   margin-bottom: 4rem;
 }
-#aboutRowSwitch{
+
+#aboutRowSwitch {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -536,7 +525,7 @@ label{
   margin-bottom: 4rem;
 }
 
-#rowAboutDiv{
+#rowAboutDiv {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -544,16 +533,16 @@ label{
   margin-bottom: 4rem;
 }
 
-#aboutP{
-  width: 792px;
-  height: 200px;
+#aboutP {
+  width: 49.5rem;
+  height: 12.5rem;
   font-family: Lucida Bright,Georgia,serif;
   background-color: #FFEFCD;
-  border-radius: 30px 0px 0px 0px;
-  box-shadow: 0 4px 3px 0px gray;
+  border-radius: 1.875rem 0rem 0rem 0rem;
+  box-shadow: 0rem 0.25rem 0.1875rem 0rem gray;
 }
 #aboutPMiddle{
-  width: 950px;
+  width: 59.375rem;
   height: 200px;
   font-family: Lucida Bright,Georgia,serif;
   background-color: #FFEFCD;
@@ -807,12 +796,21 @@ iframe{
   height: 15rem;
   transform: translateX(10rem);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  
+  align-items: center;
 }
 
-#tallerImg{
+#tallerImg {
+  height: 20rem;
+  width: 13rem;
+}
+
+#talleresDivP {
+  background-color: #FEEBC8;
+  border-radius: 1rem;
   height: 25rem;
   width: 15rem;
+  margin-left: 3rem;
+  padding: 1rem;
 }
