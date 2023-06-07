@@ -296,13 +296,14 @@ color: black;
   padding-top: 5rem;
   color: #FFEFCD;
   opacity: 0.3;
- padding-bottom: 3rem;
+  margin-bottom: 6rem;
+ padding-left: 2.4rem;
 }
 
 .menuDiv{
   display: flex;
   flex-direction: column;
-  margin: 2rem;
+ 
 }
 
 #menuComponent{
@@ -770,4 +771,48 @@ iframe{
   width: 560px;
   height: 415px;
   padding: 0.5rem
+}
+/*talleres css*/
+#talleresSec{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  background-color: #e6ae69;
+  padding-bottom: 8rem;
+  font-family: Lucida Bright,Georgia,serif;
+}
+
+#tallerTittle{
+  color: #636845;
+  font-size: 4rem;
+  align-self: flex-end;
+  padding-right: 10rem;
+}
+
+#roundTalleres{
+  border-radius: 50rem;
+  width: 30rem;
+  height: 30rem;
+  background-color: #E09132;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#largeTalleres{
+  position: relative;
+  background-color: #636845;
+  width: 55rem;
+  height: 15rem;
+  transform: translateX(10rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+#tallerImg{
+  height: 25rem;
+  width: 15rem;
 }

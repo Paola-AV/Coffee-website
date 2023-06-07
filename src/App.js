@@ -8,7 +8,7 @@ import Contacto from './components/Contacto';
 import Footer from './components/Footer';
 import ContactScreen from './components/ContactScreen';
 import Nosotros from './components/Nosotros';
-
+import Talleres from './components/Talleres';
 import GaleriaScreen from './components/GaleriaScreen'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -21,10 +21,11 @@ function App() {
     <>
       <Navbar/>
       <Routes>
-        <Route path='/' element={<div> <Inicio/><Historia/><Galeria/><Menu/><Contacto/> </div>}></Route>
+        <Route path='/' element={<div> <Inicio/><Historia/><Galeria/><Menu/><Talleres/><Contacto/> </div>}></Route>
         <Route path='Nosotros' element={<Nosotros/>}/>
         <Route path='Contacto' element={<ContactScreen/>}/>
         <Route path='Galeria' element={<GaleriaScreen/>}></Route>
+       
       </Routes>
       <Footer/>
     </>
@@ -34,7 +35,7 @@ function App() {
 
 
 export default App;
-
+/* <Route path='Talleres' element={<Talleres/>}/>*/
 /*  
     <Inicio/>
     <Historia/> 
