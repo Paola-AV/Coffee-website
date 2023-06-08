@@ -2,7 +2,6 @@ import
 
 * {
   font-family: Lucida Bright,Georgia,serif;
-  
 }
 
 body {
@@ -10,44 +9,41 @@ body {
   font-weight:"300";
   margin: 0;
   height: 57.1875rem;
-
+  width: 100%;
   background: linear-gradient(0deg, rgba(224,155,72,0.850577731092437) 0%, rgba(255,239,205,1) 100%); 
   background-color:#e6ae69;
 }
 
+/*navbar css*/
 
-#navBox {
+header {
   padding: 0;
-}
-
-.nav-item {
-  margin-top: 1rem
-}
-
-.navbarHeader {
-  width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   background-color: transparent;
 }
 
-#navbarNav ul li {
+
+#navbarNav {
 margin-left: 1.875rem;
 margin-right: 1.875rem;
 font-family: Lucida Bright,Georgia,serif;
 color: black;
+padding-right: 2.5rem;
+padding-left: 2.5rem;
 }
 
-#navbarNav ul li a {
+#li {
   color: black;
   font-weight: bold;
   transition: 0.5s;
   font-size: 1.8rem;
+  padding-top: 1rem;
 }
 
-#navbarNav ul li a:hover {
+#li:hover {
   font-size: 2.2rem;
   transition: 0.5s;
 }
@@ -84,6 +80,7 @@ color: black;
   flex-direction: column;
   justify-content: center;
   padding-left: 5rem;
+  transform: translateX(20rem);
 }
 
 #col2 {
@@ -91,6 +88,7 @@ color: black;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+  transform: translateX(5rem);
 }
 
 #coffeeImg {
@@ -136,6 +134,49 @@ color: black;
 
 #btn2 {
   background-color: #424530;
+}
+
+@media only screen and (max-width: 998px) {
+  #col2{
+    width: 40%;
+  }
+  #coffeeImg{
+    width: 40rem;
+  }
+  #granosImg {
+    width: 25rem;
+   transform: translate(-10rem,-27rem);
+  }
+  #col1{
+    width: 60%;
+    justify-content: flex-start;
+    padding: 0;
+    transform: translateX(5rem);
+  }
+
+}
+
+@media only screen and (max-width: 688px) {
+  #inicio{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  #col2 {
+    display: none;
+  }
+  #coffeeImg {
+    display: none;
+  }
+  #granosImg {
+   display: none;
+  }
+  #col1 {
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
 }
 
 /*starts the arrow css*/
@@ -204,6 +245,21 @@ color: black;
 #blockImg {
   width: 17.8125rem;
   height: 9.0625rem;
+}
+
+@media only screen and (max-width: 688px){
+  #airpress {
+    display: none;
+  }
+  #block {
+    display: none;
+  }
+  #card {
+    width: 70vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 /*starts Galeria css*/
@@ -349,6 +405,12 @@ color: black;
   justify-self: center;
   align-self: center;
   margin-top: 1rem;
+}
+
+@media only screen and (max-width: 688px){
+  .columnDivMenu{
+    flex-direction: column;
+  }
 }
 
 /*starts contacto css*/
@@ -541,102 +603,105 @@ background-color: #e6ae69;
   border-radius: 1.875rem 0rem 0rem 0rem;
   box-shadow: 0rem 0.25rem 0.1875rem 0rem gray;
 }
-#aboutPMiddle{
+#aboutPMiddle {
   width: 59.375rem;
-  height: 200px;
+  height: 12.5rem;
   font-family: Lucida Bright,Georgia,serif;
   background-color: #FFEFCD;
-  border-radius: 0px 30px 0px 30px;
-  box-shadow: 0 4px 3px 0px gray;
+  border-radius: 0px 1.875rem 0px 1.875rem;
+  box-shadow: 0 0.25rem 0.1875rem 0px gray;
 }
 
-#middlePDiv{
+#middlePDiv {
   display: flex;
   flex-direction: row;
 }
 
-#aboutPSwitch{
-  width: 792px;
-  height: 200px;
+#aboutPSwitch {
+  width: 49.5rem;
+  height: 12.5rem;
   font-family: Lucida Bright,Georgia,serif;
   background-color: #FFEFCD;
-  border-radius: 0px 30px 0px 0px;
+  border-radius: 0px 1.875rem 0px 0px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  box-shadow: 0 4px 3px 0px gray;
+  box-shadow: 0 0.25rem 0.1875rem 0px gray;
 }
 
-#aboutTitle{
+#aboutTitle {
   font-size: 1rem;
   padding-top: 2rem;
   padding-left: 3rem;
 }
 
-#aboutTitleSwitch{
+#aboutTitleSwitch {
   font-size: 1rem;
   padding-top: 2rem;
   padding-left: 9rem;
 }
 
-#aboutParagraph{
+#aboutParagraph {
   font-size: 0.8rem;
   padding-right: 7rem;
   padding-left: 3rem;
 }
 
-#middlePleft{
+#middlePleft {
   font-size: 0.8rem;
   padding-left: 2rem;
   padding-right: 9rem;
 }
 
-#middlePright{
+#middlePright {
   font-size: 0.8rem;
   padding-right: 2rem;
   padding-left: 9rem;
 }
 
-#aboutParagraphSwitch{
+#aboutParagraphSwitch {
   font-size: 0.8rem;
   padding-right: 3rem;
   padding-left: 7rem;
 }
 
-#imgRound{
-  width: 280px;
-  height: 280px;
+#imgRound {
+  width: 17.5rem;
+  height: 17.5rem;
   border-radius: 50%;
   border: 10px solid #636845 ;
   transform: translateX(-6rem);
 }
-#imgRoundSwitch{
-  width: 280px;
-  height: 280px;
+
+#imgRoundSwitch {
+  width: 17.5rem;
+  height: 17.5rem;
   border-radius: 50%;
-  border: 10px solid #636845 ;
+  border: 0.625rem solid #636845 ;
   transform: translateX(6rem);
 }
-#imgRoundMiddle{
-  width: 280px;
-  height: 280px;
+
+#imgRoundMiddle {
+  width: 17.5rem;
+  height: 17.5rem;
   border-radius: 50%;
-  border: 10px solid #636845 ;
+  border: 0.625rem solid #636845 ;
   transform: translate(19rem,-11rem);
 }
 
-
 /*starts contact screen*/
 
-#mapDiv{
+#mapDiv {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-iframe{
+
+iframe {
   align-self: center;
 }
-.mapIconDiv{
+
+.mapIconDiv {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -653,7 +718,8 @@ iframe{
 }
 
 /*starts galeria screen css*/
-#galSec{
+
+#galSec {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -662,107 +728,126 @@ iframe{
   padding-bottom: 8rem;
 }
 
-#galeriaTitle{
+#galeriaTitle {
   color: #424530;
   font-family: Lucida Bright,Georgia,serif;
   font-size: 4rem;
   padding: 2rem;
 }
+
 /*first section of the layout*/
-#firstSec{
+
+#firstSec {
   display: flex;
   flex-direction: row;
   margin-left: 15rem;
   width: 100%;
 }
+
 /*first column*/
-.colTwo{
+
+.colTwo {
   display: flex;
   flex-direction: column;
 }
-.firstCol{
-  width: 392px;
-  height: 693px;
+
+.firstCol {
+  width: 24.5rem;
+  height: 43.3125rem;
   padding: 0.7rem;
 }
+
 /*second column*/
-#five{
+
+#five {
   display: flex;
   flex-direction: column;
   width: 47%;
 }
 
-.rowTwo{
+.rowTwo {
   display: flex;
   flex-direction: row;
   width: 100%;
 }
 
-.firstRow{
-  width: 374px;
-  height: 374px;
+.firstRow {
+  width: 23.375rem;
+  height: 23.375rem;
   padding: 0.5rem;
 }
 
-#medioCol{
-  width: 748px;
-  height: 512px;
+#medioCol {
+  width: 46.75rem;
+  height: 32rem;
   padding: 0.5rem;
 }
 
-#secondCol1{
-  width: 488px;
-  height: 488px;
+#secondCol1 {
+  width: 30.5rem;
+  height: 30.5rem;
   padding: 0.5rem;
 }
 
-#secondCol2{
-  width: 260px;
-  height: 488px;
+#secondCol2 {
+  width: 16.25rem;
+  height: 30.5;
   padding: 0.5rem;
 }
+
 /*the big middle image*/
-#middleImg{
+
+#middleImg {
   width: 100%;
   display: flex;
   flex-direction: column;
-
 }
-#imgMiddle{
-  width: 1120px;
-  height: 990px;
+
+#imgMiddle {
+  width: 70rem;
+  height: 61.875rem;
   margin-left: 15.7rem;
 }
+
 /*second section of the layout*/
-#SecondSec{
+
+#SecondSec {
   display: flex;
   flex-direction: row;
   width: 100%;
   margin-left: 15rem;
 }
-#twoColumn{
+
+#twoColumn {
   display: flex;
   flex-direction: column;
 }
+
 /*images, first column second section*/
-#secondColumn1{
-  width: 580px;
-  height: 580px;
+
+#secondColumn1 {
+  width: 36.25rem;
+  height: 36.25rem;
   padding: 0.5rem
 }
+
 /*images, second column, second section*/
-#secondColumn2-1{
-  width: 560px;
-  height: 745px;
+
+#secondColumn2-1 {
+  width: 35rem;
+  height: 46.5625rem;
   padding: 0.5rem
 }
-#secondColumn2-2{
-  width: 560px;
-  height: 415px;
+
+#secondColumn2-2 {
+  width: 35rem;
+  height: 25.9375;
   padding: 0.5rem
 }
+
 /*talleres css*/
-#talleresSec{
+
+#talleresSec {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -772,14 +857,14 @@ iframe{
   font-family: Lucida Bright,Georgia,serif;
 }
 
-#tallerTittle{
+#tallerTittle {
   color: #636845;
   font-size: 4rem;
   align-self: flex-end;
   padding-right: 10rem;
 }
 
-#roundTalleres{
+#roundTalleres {
   border-radius: 50rem;
   width: 30rem;
   height: 30rem;
@@ -789,7 +874,7 @@ iframe{
   justify-content: center;
 }
 
-#largeTalleres{
+#largeTalleres {
   position: relative;
   background-color: #636845;
   width: 55rem;
