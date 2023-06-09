@@ -406,7 +406,6 @@ padding-left: 2.5rem;
   align-self: center;
   margin-top: 1rem;
 }
-
 @media only screen and (max-width: 688px){
   .columnDivMenu{
     flex-direction: column;
@@ -543,6 +542,19 @@ background-color: #e6ae69;
  padding-left: 9.5rem;
 }
 
+#logoRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#contactP{
+  padding-left: 0.5rem;
+}
+
+#iconC {
+  transform: translateY(-0.5rem);
+}
 /*nosotros css*/
 
 #nosotrosSec {
