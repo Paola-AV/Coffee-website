@@ -4,10 +4,10 @@ import {FaRegEnvelope} from "react-icons/fa";
 function Footer(){
     return (
         <section id="footer">
-            <div class="footerDiv">
+            <div class="footerDiv" id="footer2">
                 <img src="logoO.PNG" id="logo" />
             </div>
-            <div class="footerDiv">
+            <div class="footerDiv" id="footer1">
                 <p>Palmares, Alajuela<br />detras del redondel de Palmares<br />200 metros sur.</p>
                 <div id="logoRow">
                     <BsFillTelephoneFill  id="iconC"/>
@@ -21,7 +21,7 @@ function Footer(){
 
                 
             </div>
-            <div class="footerDiv">
+            <div class="footerDiv" id="footer1">
 
                 <h2>Horario de Apertura</h2>
                 <p>lunes a viernes<br/>7:00am-6:00pm</p>
