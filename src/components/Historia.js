@@ -9,7 +9,7 @@ return(
                 <p class="historiaP">Mich Cedeño Vargas, de Palmares de Alajuela es el fundador y creador de la marca y micro–tostaduría Olikey Coffee Roasters.<br/>5 años en el mjundo del café de especialidad como barista y tostador de cafés especiales.<br/>Fundamos esta Micro-Tostaduría en un momento de dificultad laboral y tambien doportando los embates de una pandemia. </p>
             </div>
         </div>
-        <div id="airpress"><img src="airpress.PNG"/></div>
+        <div id="airpress"><img id="airpressImg" src="airpress.PNG"/></div>
         <div id="block"><img src="blockDecor.png" id="blockImg" /></div>
     </section>
 
