@@ -74,6 +74,20 @@ padding-left: 2.5rem;
   height: 45.875rem;
 }
 
+#roundInicio {
+  background-color: #a68e7449;
+  border-radius: 50rem 50rem 40rem 40rem;
+  height: 35rem;
+  width: 40rem;
+  transition: 0.5s;
+  box-shadow: 4px 10px 56px 1px #a68e7449;
+}
+
+#roundInicio:hover {
+  transition: 0.5s;
+  box-shadow:10px 10px 71px 62px  #a68e7449;
+}
+
 #col1 {
   height: 40rem;
   display: flex;
@@ -92,7 +106,7 @@ padding-left: 2.5rem;
 }
 
 #coffeeImg {
-  transform: translateY(-12rem);
+  transform: translate(-14rem,-13rem);
   margin-left: 7rem;
 }
 
@@ -100,7 +114,7 @@ padding-left: 2.5rem;
   position: absolute;
   height: 15rem;
   width: 32.25rem;
-  transform: translate(-14.5rem, -30rem); 
+  transform: translate(3rem, -32rem); 
 }
 
 #txtInicio {
@@ -1366,7 +1380,7 @@ iframe {
 }
 
 @media only screen and (max-width: 998px) {
-  
+
 }
 
 @media only screen and (max-width: 688px){

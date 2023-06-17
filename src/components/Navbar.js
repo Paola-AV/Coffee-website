@@ -12,7 +12,7 @@ function Navbar() {
       <Nav defaultActiveKey="/home" as="ul">
 
         <Nav.Item as="li" id="navbarNav">
-          <Nav.Link href="/home" id="li">Inicio</Nav.Link>
+          <Nav.Link href="/" id="li">Inicio</Nav.Link>
         </Nav.Item>
 
         <Nav.Item as="li" id="navbarNav">
