@@ -1,5 +1,5 @@
 
-import Navbar from './components/Navbar'
+import Navbar from './components/NavbarComp'
 import Inicio from './components/Inicio'
 import Historia from './components/Historia';
 import Galeria from './components/Galeria';
@@ -12,6 +12,7 @@ import Nosotros from './components/Nosotros';
 import GaleriaScreen from './components/GaleriaScreen';
 import Bolsas from './components/Bolsas';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import NavbarComp from './components/NavbarComp';
 
 
 
@@ -20,7 +21,7 @@ function App() {
   return (
 
     <>
-      <Navbar/>
+      <NavbarComp/>
       <Routes>
         <Route path='/' element={<div> <Inicio/><Historia/><Galeria/><Menu/><Talleres/><Bolsas/><Contacto/> </div>}></Route>
         <Route path='Nosotros' element={<Nosotros/>}/>
