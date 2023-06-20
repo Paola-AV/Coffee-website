@@ -24,7 +24,7 @@ function Inicio() {
             <div class="col-8" id="col2">
 
                 <div id="roundInicio">
-                <img src="Café-y-Quequito.png" id="coffeeImg" />
+                <img src="inicioCafe.png" id="coffeeImg" />
                     <div id="granosDiv">
                         <img src="Granos-Under-Vaso.png" id="granosImg" />
                     </div>
