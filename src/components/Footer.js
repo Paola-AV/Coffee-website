@@ -1,12 +1,18 @@
 import {BsFillTelephoneFill} from "react-icons/bs";
 import {FaRegEnvelope} from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
+
 
 function Footer(){
     return (
         <section id="footer">
+
             <div class="footerDiv" id="footer2">
                 <img src="logoO.PNG" id="logo" />
             </div>
+
             <div class="footerDiv" id="footer1">
                 <p>Palmares, Alajuela<br />detras del redondel de Palmares<br />200 metros sur.</p>
                 <div id="logoRow">
@@ -28,6 +34,12 @@ function Footer(){
 
                 <p>Sabados <br/> 9:00am-6:00pm</p>
 
+            </div>
+
+            <div id="footerIcons">
+                <a className="FooterLink" href="https://www.instagram.com/olikeycoffeeroasters/"><FaInstagram className="FooterIcon"/></a>
+                <a className="FooterLink" href="https://www.facebook.com/Olikeycoffeeroasters"><FaFacebookSquare className="FooterIcon"/></a>
+                <a className="FooterLink"><FaWhatsapp className="FooterIcon"/></a>
             </div>
         </section>
     )
