@@ -1,15 +1,40 @@
-
+import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import Nav from 'react-bootstrap/Nav';
-import { Link } from 'react-router-dom';
-import { Navbar} from 'react-bootstrap';
-
+import { useNavigate } from "react-router-dom";
 
 function NavbarComp() {
+  const navRef = useRef();
 
+  const showNavbar = () => {
+    navRef.current.classList.toggle(
+      "responsive_nav"
+    );
+  };
+
+  const navigate=useNavigate()
 
   return (
-
+      <header>
+        <nav ref={navRef}>
+          <a onClick={() => navigate('/')}>Inicio</a>
+          <a href="#menu" >Menu</a>
+            <div id="logo-nav"> </div>
+          <a onClick={() => navigate('Talleres')}>Talleres</a>
+          <a onClick={() => navigate('Productos')}>Productos</a>
+          <button
+            className="nav-btn nav-close-btn"
+            onClick={showNavbar}>
+            <FaTimes />
+          </button>
+        </nav>
+        <button
+          className="nav-btn"
+          onClick={showNavbar}>
+          <FaBars />
+        </button>
+      </header>
+    );
+    /*
     <header class="navbarHeader">
       <Navbar collapseOnSelect expand="lg">
         <Navbar.Toggle  aria-controls="basic-navbar-nav"/>
@@ -50,7 +75,7 @@ function NavbarComp() {
 
     </header>
 
-  )
+  )*/
 
 }
 
