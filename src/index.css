@@ -25,6 +25,7 @@ header {
 	padding: 0 2rem;
   padding-bottom: 2rem;
   position: fixed;
+  align-self: center;
 }
 
 nav {
@@ -497,14 +498,20 @@ padding-left: 2.5rem;
   padding-top: 5rem;
   color: #FFEFCD;
   opacity: 0.3;
-  margin-bottom: 6rem;
- padding-left: 2.4rem;
+  margin-bottom: 10rem;
+ padding-left: 14.5rem;
 }
 
 .menuDiv {
   display: flex;
   flex-direction: column;
- 
+  padding-left: 0rem;
+}
+
+.menuDiv1 {
+  display: flex;
+  flex-direction: column;
+  padding-right: 3rem;
 }
 
 #menuComponent1 {
@@ -512,9 +519,9 @@ padding-left: 2.5rem;
   flex-direction: column;
   align-items: center;
   background-color: #FFEFCD;
-  width: 50%;
+  width: 60%;
   height: 6rem;
-  align-self: flex-end;
+  align-self:  flex-end;
   border-radius: 1rem;
   box-shadow: 0.3125rem 0.3125rem 0.625rem -0.1875rem #888689de;
 }
@@ -524,7 +531,7 @@ padding-left: 2.5rem;
   flex-direction: column;
   align-items: center;
   background-color: #FFEFCD;
-  width: 50%;
+  width: 60%;
   height: 6rem;
   align-self: center;
   border-radius: 1rem;
@@ -540,7 +547,7 @@ padding-left: 2.5rem;
 .columnMenu {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 45vw;
   margin: 0;
 }
 
@@ -548,7 +555,7 @@ padding-left: 2.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 50%;
+  width: 45vw;
   margin: 0;
 }
 
@@ -559,6 +566,14 @@ padding-left: 2.5rem;
   height: 10rem;
   width: 10rem;
   transform: translate(4rem,-15rem);
+}
+
+#imgMenu1 {
+  position: relative;
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+  transform: translate(12rem,-14.6rem);
 }
 
 #compMenuH {
@@ -575,7 +590,7 @@ padding-left: 2.5rem;
   color: white;
   padding: 0.7rem;
   border-radius: 50rem;
-  width: 13%;
+  width: 16%;
   justify-self: center;
   align-self: center;
   margin-top: 1rem;
@@ -586,10 +601,10 @@ padding-left: 2.5rem;
   color: white;
   padding: 0.7rem;
   border-radius: 50rem;
-  width: 13%;
+  width: 17%;
   justify-self: center;
-  align-self: flex-end;
-  margin-right: 10rem;
+  align-self: center;
+  transform: translateX(9rem);
   margin-top: 1rem;
 }
 
