@@ -7,23 +7,23 @@ function Menu() {
       <div><h1 id="tittleMenu">Menu</h1></div>
       <div className="columnDivMenu">
 
-        <div className="columnMenu">
-          <div className="menuDiv">
-            <div id="menuComponent">
+        <div className="columnMenu1">
+          <div className="menuDiv1">
+            <div id="menuComponent1">
               <h2 id="compMenuH">Espresso</h2>
               <p id="compMenuP">Lorem ipsum dolor sit amet</p>
             </div>
-            <a id="menuBtn">Conoce mas</a>
-            <img id="imgMenu" src="galeriaImg/vasoGaleria.png" />
+            <a id="menuBtn1">Conoce mas</a>
+            <img id="imgMenu1" src="galeriaImg/vasoGaleria.png" />
           </div>
 
-          <div className="menuDiv">
-            <div id="menuComponent">
+          <div className="menuDiv1">
+            <div id="menuComponent1">
               <h2 id="compMenuH">Infusiones</h2>
               <p id="compMenuP">Lorem ipsum dolor sit amet</p>
             </div>
-            <a id="menuBtn">Conoce mas</a>
-            <img id="imgMenu" src="copa1.png" />
+            <a id="menuBtn1">Conoce mas</a>
+            <img id="imgMenu1" src="copa1.png" />
           </div>
         </div>
 

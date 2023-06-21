@@ -15,7 +15,113 @@ body {
 }
 
 /*navbar css*/
+header {
+  font-family: Lucida Bright,Georgia,serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 6rem;
+  width: 100vw;
+	padding: 0 2rem;
+  padding-bottom: 2rem;
+  position: fixed;
+  align-self: center;
+}
 
+nav {
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+nav a {
+	margin: 0 1rem;
+	color: var(--textColor);
+	text-decoration: none;
+  font-size: 2rem;
+  padding-left: 4.3rem;
+  padding-right: 4.3rem;
+  padding-top: 2rem;
+}
+
+nav a:hover {
+	font-size: 2rem;
+  transition: 2s;
+}
+
+header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+header div,
+nav {
+	display: flex;
+	align-items: center;
+}
+
+#logo-nav:hover {
+  height: 8.5rem;
+  transition: 0.5s;
+}
+#logo-nav {
+  padding: 0;
+  margin-top: 0;
+  width: 6.6rem;
+  height: 7.2rem;
+  background-color:#cd8d31;
+  border-bottom-left-radius: 3.125rem;
+  border-bottom-right-radius: 3.125rem;
+  transition: 0.5s;
+}
+
+@media only screen and (max-width: 1024px) {
+	header .nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	header nav {
+		position: fixed;
+		top: -100vh;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		background-color: var(--mainColor);
+		transition: 1s;
+	}
+
+	header .responsive_nav {
+		transform: translateY(100vh);
+	}
+
+	nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+	nav a {
+		font-size: 1.5rem;
+	}
+  #logo-nav {
+   display: none;
+  }
+  
+}
+/*
 header {
   padding: 0;
   display: flex;
@@ -70,8 +176,6 @@ padding-left: 2.5rem;
   padding-left: 0rem;
  }
 }
-
-
 /*Starts inicio css*/
 
 #inicio {
@@ -80,6 +184,21 @@ padding-left: 2.5rem;
   margin: 0;
   width: 100vw;
   height: 45.875rem;
+  padding-top: 5rem;
+}
+
+#roundInicio {
+  background-color: #a68e7449;
+  border-radius: 50rem 50rem 40rem 40rem;
+  height: 35rem;
+  width: 40rem;
+  transition: 0.5s;
+  box-shadow: 4px 10px 56px 1px #a68e7449;
+}
+
+#roundInicio:hover {
+  transition: 0.5s;
+  box-shadow:10px 10px 71px 62px  #a68e7449;
 }
 
 #col1 {
@@ -87,8 +206,8 @@ padding-left: 2.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 5rem;
-  transform: translateX(20rem);
+  transform: translateX(22rem);
+  padding-bottom: 10rem;
 }
 
 #col2 {
@@ -96,20 +215,22 @@ padding-left: 2.5rem;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  transform: translateX(5rem);
+  transform: translate(5rem,4rem);
+  padding-bottom: 10rem;
 }
 
 #coffeeImg {
-  transform: translateY(-12rem);
-  width: auto;
+  transform: translate(2rem,-3rem);
+  width: 23rem;
+  height: 33rem;
   margin-left: 7rem;
 }
 
 #granosImg {
   position: absolute;
-  height: 15rem;
-  max-width: 32.25rem;
-  transform: translate(-14.5rem, -30rem); 
+  height: 16rem;
+  width: 33.25rem;
+  transform: translate(3rem, -12rem); 
 }
 
 #txtInicio {
@@ -221,6 +342,7 @@ padding-left: 2.5rem;
   align-items: center;
   background-color:#e6ae69;
   width: 100vw;
+  padding-bottom: 15rem;
 }
 
 #card {
@@ -312,6 +434,11 @@ padding-left: 2.5rem;
   }
   #tittleHistoria {
     color: #424530;
+    padding-left: 2rem;
+  }
+  #txtHistoria {
+    padding-top: 0rem;
+    padding-bottom: 2rem;
   }
 }
 
@@ -324,6 +451,7 @@ padding-left: 2.5rem;
   justify-content: center;
   padding-top: 18rem;
   background-color: #e6ae69;
+  padding-bottom: 15rem;
 }
 
 #tittleGal {
@@ -387,7 +515,7 @@ padding-left: 2.5rem;
 #menu {
   font-family: Lucida Bright,Georgia,serif;
   background-color: #e6ae69;
-  padding-bottom: 6rem;
+  padding-bottom: 15rem;
   padding-top: 6rem;
   width: 100vw;
 }
@@ -397,14 +525,32 @@ padding-left: 2.5rem;
   padding-top: 5rem;
   color: #FFEFCD;
   opacity: 0.3;
-  margin-bottom: 6rem;
- padding-left: 2.4rem;
+  margin-bottom: 10rem;
+ padding-left: 14.5rem;
 }
 
 .menuDiv {
   display: flex;
   flex-direction: column;
- 
+  padding-left: 0rem;
+}
+
+.menuDiv1 {
+  display: flex;
+  flex-direction: column;
+  padding-right: 3rem;
+}
+
+#menuComponent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFEFCD;
+  width: 60%;
+  height: 6rem;
+  align-self:  flex-end;
+  border-radius: 1rem;
+  box-shadow: 0.3125rem 0.3125rem 0.625rem -0.1875rem #888689de;
 }
 
 #menuComponent {
@@ -412,7 +558,7 @@ padding-left: 2.5rem;
   flex-direction: column;
   align-items: center;
   background-color: #FFEFCD;
-  width: 70%;
+  width: 60%;
   height: 6rem;
   align-self: center;
   border-radius: 1rem;
@@ -428,7 +574,15 @@ padding-left: 2.5rem;
 .columnMenu {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 45vw;
+  margin: 0;
+}
+
+.columnMenu1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 45vw;
   margin: 0;
 }
 
@@ -439,6 +593,14 @@ padding-left: 2.5rem;
   height: 10rem;
   width: 10rem;
   transform: translate(4rem,-15rem);
+}
+
+#imgMenu1 {
+  position: relative;
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+  transform: translate(12rem,-14.6rem);
 }
 
 #compMenuH {
@@ -455,9 +617,21 @@ padding-left: 2.5rem;
   color: white;
   padding: 0.7rem;
   border-radius: 50rem;
-  width: 13%;
+  width: 16%;
   justify-self: center;
   align-self: center;
+  margin-top: 1rem;
+}
+
+#menuBtn1 {
+  background-color: #424530;
+  color: white;
+  padding: 0.7rem;
+  border-radius: 50rem;
+  width: 17%;
+  justify-self: center;
+  align-self: center;
+  transform: translateX(9rem);
   margin-top: 1rem;
 }
 
@@ -555,7 +729,6 @@ padding-left: 2.5rem;
 }
 
 /*starts contacto css*/
-
 #contactoDiv {
   background-color: #FFEFCD; 
   align-items: center;
@@ -806,7 +979,7 @@ label {
 #footer {
   display: flex;
   flex-direction: row;
-background-color: #e6ae69;
+  background-color: #e6ae69;
 }
 
 #logo {
@@ -818,6 +991,13 @@ background-color: #e6ae69;
 .footerDiv {
   padding: 2rem;
  padding-left: 9.5rem;
+ display: flex;
+ flex-direction:column ;
+justify-content: center;
+}
+
+#footer2 {
+  padding-left: 22.5rem;
 }
 
 #logoRow {
@@ -832,6 +1012,21 @@ background-color: #e6ae69;
 
 #iconC {
   transform: translateY(-0.5rem);
+}
+
+#footerIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-bottom: 1rem;
+}
+
+.FooterIcon {
+  color: #424530;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0.5rem;
 }
 
 @media only screen and (max-width: 998px) {
@@ -1345,6 +1540,11 @@ iframe {
 }
 
 @media only screen and (max-width: 688px){
+
+  #tallerTittle {
+    padding-left: 4rem;
+  }
+
   #roundTalleres {
     background-color: transparent;
   }
@@ -1476,7 +1676,7 @@ iframe {
 }
 
 @media only screen and (max-width: 998px) {
-  
+
 }
 
 @media only screen and (max-width: 688px){
