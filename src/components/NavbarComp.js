@@ -34,48 +34,6 @@ function NavbarComp() {
         </button>
       </header>
     );
-    /*
-    <header class="navbarHeader">
-      <Navbar collapseOnSelect expand="lg">
-        <Navbar.Toggle  aria-controls="basic-navbar-nav"/>
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav cid="basic-navbar-nav">
-
-            <Nav.Item id="navbarNav">
-              <Nav.Link id="li" eventKey="1" as={Link} to="/">
-                  Inicio
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item id="navbarNav">
-              <Nav.Link id="li" eventKey="1" as={Link} to="/Menu.js">
-                Menu
-              </Nav.Link>
-            </Nav.Item>
-
-            <li>
-              <div id="logo-nav"> </div>
-            </li>
-
-            <Nav.Item id="navbarNav">
-              <Nav.Link id="li" eventKey="1" as={Link} to="/ContactScreen.js">
-                Contacto
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item id="navbarNav">
-              <Nav.Link id="li" eventKey="2" as={Link} to="/Nosotros.js">
-                Historia
-              </Nav.Link>
-            </Nav.Item>
-
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
-
-    </header>
-
-  )*/
 
 }
 

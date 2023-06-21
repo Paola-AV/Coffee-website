@@ -29,7 +29,6 @@ function App() {
         <Route path='Galeria' element={<GaleriaScreen/>}></Route>
         <Route path='Productos' element={<Bolsas/>}></Route>
         <Route path='Talleres' element={<Talleres/>}></Route>
-       
       </Routes>
       <Footer/>
     </>

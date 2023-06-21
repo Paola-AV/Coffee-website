@@ -169,14 +169,21 @@ padding-left: 2.5rem;
   height: 8.5rem;
   transition: 0.5s;
 }
-*/
+
+@media only screen and (max-width: 1560px) {
+  #navbarNav{
+  padding-right: 0rem;
+  padding-left: 0rem;
+ }
+}
 /*Starts inicio css*/
 
 #inicio {
   font-family: Lucida Bright,Georgia,serif;
   margin-top: 10rem;
   margin: 0;
-  width: 100%;
+  width: 100vw;
+  height: 45.875rem;
   padding-top: 5rem;
 }
 
@@ -257,6 +264,26 @@ padding-left: 2.5rem;
 
 #btn2 {
   background-color: #424530;
+}
+
+@media only screen and (max-width: 1560px) {
+  #col1 {
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateX(11.5rem);
+  }
+}
+
+@media only screen and (max-width: 1560px) {
+  #col1 {
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateX(6rem);
+  }
 }
 
 @media only screen and (max-width: 998px) {
@@ -608,6 +635,42 @@ padding-left: 2.5rem;
   margin-top: 1rem;
 }
 
+@media only screen and (max-width: 1560px) {
+  #menuBtn {
+    width: 16%;
+    font-size: 90%;
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+  #tittleMenu {
+    font-size: 7rem;
+    padding-left: 4rem;
+  }
+  .columnDivMenu {
+    flex-direction: column;
+  }
+
+  .menuDiv {
+    width: 100vw;
+  }
+
+  #menuComponent {
+    width: 50%;
+  }
+
+  #menuBtn {
+    width: 11%;
+    padding: 1rem;
+  }
+
+  #imgMenu {
+    height: 11rem;
+    width: 11rem;
+    transform: translate(12rem,-13rem);
+  }
+}
+
 @media only screen and (max-width: 998px) {
   #tittleMenu {
     font-size: 7rem;
@@ -774,6 +837,51 @@ label {
   flex-direction: row;
   justify-content: center;
   transform: translateX(-2rem);
+}
+
+@media only screen and (max-width: 1140px) {
+  #input {
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .inputDiv {
+    padding-left: 14rem;
+    width: 80%;
+  }
+
+  .inputC {
+    width: 90%;
+  }
+
+  #inputMensaje {
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #mensaje {
+    transform: translateX(6rem);
+    align-self: flex-start;
+    padding-left: 6rem;
+  }
+
+  #mensajeInput {
+    height: 14rem;
+    width: 66%;
+    margin-left: 1rem;
+  }
+
+  .btnContacto {
+    width: 20%;
+  }
+
+  #contactoTittle{
+    font-size: 5rem;
+    padding-left: 6rem;
+  }
 }
 
 @media only screen and (max-width: 998px) {
