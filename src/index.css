@@ -415,6 +415,24 @@ padding-left: 2.5rem;
 }
 
 /*starts Galeria css*/
+#galeria {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: center;
+  padding-top: 18rem;
+  background-color: #e6ae69;
+  padding-bottom: 15rem;
+}
+
+#tittleGaleria {
+  font-size: 8rem;
+  color: #FFEFCD;
+  opacity: 0.3;
+  transform: translate(22rem, -10rem);
+  font-family: Lucida Bright,Georgia,serif;
+}
+
 .container {
   max-width: 124rem;
   padding: 4rem 1rem;
@@ -698,12 +716,8 @@ padding-left: 2.5rem;
   color: white;
   padding: 0.7rem;
   border-radius: 50rem;
-<<<<<<< Updated upstream
-  width: 13%;
-=======
   width: 100%;
   max-width: 16%;
->>>>>>> Stashed changes
   justify-self: center;
   align-self: center;
   margin-top: 1rem;

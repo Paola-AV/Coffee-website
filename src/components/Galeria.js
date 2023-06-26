@@ -16,13 +16,11 @@ import slide_image_3 from '../CarrouselImg/tostadora.PNG';
 function Galeria() {
     const navigate=useNavigate()
   return (
-    <><section id='galeria'>
-          <div id="tittleGal">
+    <section id='galeria'>
+         <div id="tittleGal">
               <h1 id="tittleGaleria">Galeria</h1>
           </div>
-
-      </section><div className="container">
-              <h1 className="heading">Flower Gallery</h1>
+            <div className="container">
               <Swiper
                   effect={'coverflow'}
                   grabCursor={true}
@@ -64,7 +62,8 @@ function Galeria() {
                       <div className="swiper-pagination"></div>
                   </div>
               </Swiper>
-          </div></>
+          </div>
+    </section>
   );
 }
 
