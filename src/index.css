@@ -25,6 +25,7 @@ header {
 	padding: 0 2rem;
   padding-bottom: 2rem;
   position: fixed;
+  align-self: center;
 }
 
 nav {
@@ -120,62 +121,15 @@ nav {
   }
   
 }
-/*
-header {
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: transparent;
-}
 
-
-#navbarNav {
-margin-left: 1.875rem;
-margin-right: 1.875rem;
-font-family: Lucida Bright,Georgia,serif;
-color: black;
-padding-right: 2.5rem;
-padding-left: 2.5rem;
-}
-
-#li {
-  color: black;
-  font-weight: bold;
-  transition: 0.5s;
-  font-size: 1.8rem;
-  padding-top: 1rem;
-}
-
-#li:hover {
-  font-size: 2.2rem;
-  transition: 0.5s;
-}
-
-#logo-nav {
-  padding: 0;
-  margin-top: 0;
-  width: 6.6rem;
-  height: 7.2rem;
-  background-color:#cd8d31;
-  border-bottom-left-radius: 3.125rem;
-  border-bottom-right-radius: 3.125rem;
-  transition: 0.5s;
-}
-
-#logo-nav:hover {
-  height: 8.5rem;
-  transition: 0.5s;
-}
-*/
 /*Starts inicio css*/
 
 #inicio {
   font-family: Lucida Bright,Georgia,serif;
   margin-top: 10rem;
   margin: 0;
-  width: 100%;
+  width: 100vw;
+  height: 90vh;
   padding-top: 5rem;
 }
 
@@ -256,6 +210,26 @@ padding-left: 2.5rem;
 
 #btn2 {
   background-color: #424530;
+}
+
+@media only screen and (max-width: 1560px) {
+  #col1 {
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateX(11.5rem);
+  }
+}
+
+@media only screen and (max-width: 1560px) {
+  #col1 {
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateX(6rem);
+  }
 }
 
 @media only screen and (max-width: 998px) {
@@ -638,14 +612,20 @@ padding-left: 2.5rem;
   padding-top: 5rem;
   color: #FFEFCD;
   opacity: 0.3;
-  margin-bottom: 6rem;
- padding-left: 2.4rem;
+  margin-bottom: 10rem;
+ padding-left: 14.5rem;
 }
 
 .menuDiv {
   display: flex;
   flex-direction: column;
- 
+  padding-left: 0rem;
+}
+
+.menuDiv1 {
+  display: flex;
+  flex-direction: column;
+  padding-right: 3rem;
 }
 
 #menuComponent1 {
@@ -653,9 +633,9 @@ padding-left: 2.5rem;
   flex-direction: column;
   align-items: center;
   background-color: #FFEFCD;
-  width: 50%;
+  width: 60%;
   height: 6rem;
-  align-self: flex-end;
+  align-self:  flex-end;
   border-radius: 1rem;
   box-shadow: 0.3125rem 0.3125rem 0.625rem -0.1875rem #888689de;
 }
@@ -665,7 +645,7 @@ padding-left: 2.5rem;
   flex-direction: column;
   align-items: center;
   background-color: #FFEFCD;
-  width: 50%;
+  width: 60%;
   height: 6rem;
   align-self: center;
   border-radius: 1rem;
@@ -681,7 +661,7 @@ padding-left: 2.5rem;
 .columnMenu {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 45vw;
   margin: 0;
 }
 
@@ -689,7 +669,7 @@ padding-left: 2.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 50%;
+  width: 45vw;
   margin: 0;
 }
 
@@ -700,6 +680,14 @@ padding-left: 2.5rem;
   height: 10rem;
   width: 10rem;
   transform: translate(4rem,-15rem);
+}
+
+#imgMenu1 {
+  position: relative;
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+  transform: translate(12rem,-14.6rem);
 }
 
 #compMenuH {
@@ -728,11 +716,69 @@ padding-left: 2.5rem;
   color: white;
   padding: 0.7rem;
   border-radius: 50rem;
-  width: 13%;
+  width: 17%;
   justify-self: center;
-  align-self: flex-end;
-  margin-right: 10rem;
+  align-self: center;
+  transform: translateX(9rem);
   margin-top: 1rem;
+}
+
+@media only screen and (max-width: 1560px) {
+  #menuBtn {
+    max-width: 16%;
+    font-size: 90%;
+  }
+
+  #menuBtn1 {
+    max-width: 16%;
+    font-size: 90%;
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+  #tittleMenu {
+    font-size: 7rem;
+    padding-left: 4rem;
+  }
+
+  .columnDivMenu {
+    flex-direction: column;
+  }
+
+  .menuDiv {
+    width: 100vw;
+  }
+
+  .menuDiv1 {
+    width: 100vw;
+    padding-right: 0rem;
+  }
+
+  #menuComponent {
+    width: 60%;
+  }
+
+  #menuComponent1 {
+    width: 60%;
+    align-self: center;
+  }
+
+  #menuBtn {
+    width: 13%;
+    padding: 1rem;
+  }
+
+  #menuBtn1 {
+    width: 13%;
+    padding: 1rem;
+    transform: translateX(0rem);
+  }
+
+  #imgMenu {
+    height: 8rem;
+    width: 8rem;
+    transform: translate(9rem,-12rem);
+  }
 }
 
 @media only screen and (max-width: 998px) {
@@ -900,7 +946,52 @@ label {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  transform: translateX(-2rem);
+  transform: translateX(-7rem);
+}
+
+@media only screen and (max-width: 1140px) {
+  #input {
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .inputDiv {
+    padding-left: 14rem;
+    width: 80%;
+  }
+
+  .inputC {
+    width: 90%;
+  }
+
+  #inputMensaje {
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #mensaje {
+    transform: translateX(6rem);
+    align-self: flex-start;
+    padding-left: 6rem;
+  }
+
+  #mensajeInput {
+    height: 14rem;
+    width: 66%;
+    margin-left: 1rem;
+  }
+
+  .btnContacto {
+    width: 20%;
+  }
+
+  #contactoTittle{
+    font-size: 5rem;
+    padding-left: 6rem;
+  }
 }
 
 @media only screen and (max-width: 998px) {
@@ -998,7 +1089,7 @@ label {
 #footer {
   display: flex;
   flex-direction: row;
-background-color: #e6ae69;
+  background-color: #e6ae69;
 }
 
 #logo {
@@ -1010,6 +1101,13 @@ background-color: #e6ae69;
 .footerDiv {
   padding: 2rem;
  padding-left: 9.5rem;
+ display: flex;
+ flex-direction:column ;
+justify-content: center;
+}
+
+#footer2 {
+  padding-left: 22.5rem;
 }
 
 #logoRow {
@@ -1024,6 +1122,40 @@ background-color: #e6ae69;
 
 #iconC {
   transform: translateY(-0.5rem);
+}
+
+#footerIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-bottom: 1rem;
+}
+
+.FooterIcon {
+  color: #424530;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0.5rem;
+}
+
+@media only screen and (max-width: 1140px) {
+  #footer {
+    width: 100vw;
+  }
+
+  #footer2  {
+    display: none;
+  }
+
+  #logo {
+    display: none;
+  }
+
+  #footer1 {
+   width: 50%;   
+   padding: 2rem;
+  }
 }
 
 @media only screen and (max-width: 998px) {
