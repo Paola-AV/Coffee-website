@@ -391,7 +391,7 @@ nav {
 /*starts Galeria css*/
 #galeria {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100vw;
   justify-content: center;
   padding-top: 18rem;
@@ -410,7 +410,14 @@ nav {
 .container {
   max-width: 124rem;
   padding: 4rem 1rem;
-  margin: 0 auto;
+  margin: 0rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#swip {
+  align-self: center;
+  justify-self: center;
 }
 
 .heading {
@@ -423,7 +430,9 @@ nav {
   height: 52rem;
   padding: 2rem 0;
   position: relative;
+  padding-right: 29rem !important;
 }
+
 
 .swiper-slide {
   width: 37rem;
