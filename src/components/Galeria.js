@@ -26,7 +26,30 @@ function Galeria() {
                   grabCursor={true}
                   centeredSlides={true}
                   loop={true}
-                  slidesPerView={'auto'}
+                  slidesPerView={6}
+            breakpoints={{
+              0: {
+                slidesPerView: 1,
+              },
+              400:{
+                slidesPerView:2,
+              },
+              639: {
+                slidesPerView: 3,
+              },
+              865:{
+                slidesPerView:4
+              },
+              1000:{
+                slidesPerView:5
+              },
+              1500:{
+                slidesPerView:6
+              },
+              1700:{
+                slidesPerView:7
+              }
+            }}
                   coverflowEffect={{
                       rotate: 0,
                       stretch: 0,
@@ -42,7 +65,8 @@ function Galeria() {
                   modules={[EffectCoverflow, Pagination, Navigation]}
                   className="swiper_container"
               >
-                  <SwiperSlide>
+                <div id='swip'>
+                <SwiperSlide>
                       <img src={slide_image_1} alt="slide_image" />
                   </SwiperSlide>
                   <SwiperSlide>
@@ -51,6 +75,8 @@ function Galeria() {
                   <SwiperSlide>
                       <img src={slide_image_3} alt="slide_image" />
                   </SwiperSlide>
+                </div>
+                  
 
                   <div className="slider-controler">
                       <div className="swiper-button-prev slider-arrow">
