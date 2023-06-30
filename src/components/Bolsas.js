@@ -8,6 +8,7 @@ function Bolsas() {
         AOS.refresh();
       }, []);
 
+
     return (
         <section id="bolsasSec">
 
@@ -53,6 +54,7 @@ function Bolsas() {
                 </div>
                 <img src="/Paquete.png" id="imgBolsa" />
             </div>
+
 
         </section>
     )
