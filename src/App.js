@@ -23,7 +23,7 @@ function App() {
     <>
       <NavbarComp/>
       <Routes>
-        <Route path='/' element={<div> <Inicio/><Historia/><Galeria/><Menu/><Contacto/> </div>}></Route>
+        <Route path='/' element={<div> <Inicio/><Historia/><Galeria/><Menu/><Contacto/></div>}></Route>
         <Route path='Nosotros' element={<Nosotros/>}/>
         <Route path='Contacto' element={<ContactScreen/>}/>
         <Route path='Galeria' element={<GaleriaScreen/>}></Route>

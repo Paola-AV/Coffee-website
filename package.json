@@ -14,11 +14,9 @@
     "react-icons": "^4.8.0",
     "react-router-dom": "^6.11.2",
     "react-scripts": "^5.0.1",
-<<<<<<< Updated upstream
-=======
     "react-scroll-parallax": "^3.4.2",
     "swiper": "^9.4.1",
->>>>>>> Stashed changes
+
     "web-vitals": "^2.1.4"
   },
   "scripts": {
