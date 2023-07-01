@@ -42,7 +42,7 @@ return(
             </div>
             <div id="BtnDiv">
                 <button class="btnContacto">Enviar</button>
-                <button class="btnContacto">Whatsapp</button>
+                <button class="btnContacto" >Whatsapp</button>
             </div>
         </div>
        

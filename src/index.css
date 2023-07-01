@@ -32,6 +32,7 @@ nav {
   justify-content: center;
   align-items: center;
   font-weight: 700;
+  z-index: 10000;
 }
 
 nav a {
@@ -404,7 +405,7 @@ nav {
   flex-direction: column;
   width: 100vw;
   justify-content: center;
-  padding-top: 18rem;
+  padding-top: 10rem;
   background-color: #e6ae69;
   padding-bottom: 15rem;
 }
@@ -1254,7 +1255,7 @@ justify-content: center;
   font-family: Lucida Bright,Georgia,serif;
   background-color: #FFEFCD;
   border-radius: 1.875rem 0rem 0rem 0rem;
-  box-shadow: 0rem 0.25rem 0.1875rem 0rem gray;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 #aboutPMiddle {
   width: 59.375rem;
@@ -1262,7 +1263,7 @@ justify-content: center;
   font-family: Lucida Bright,Georgia,serif;
   background-color: #FFEFCD;
   border-radius: 0px 1.875rem 0px 1.875rem;
-  box-shadow: 0 0.25rem 0.1875rem 0px gray;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 #middlePDiv {
@@ -1279,7 +1280,7 @@ justify-content: center;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  box-shadow: 0 0.25rem 0.1875rem 0px gray;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 #aboutTitle {
@@ -1340,6 +1341,10 @@ justify-content: center;
   border-radius: 50%;
   border: 0.625rem solid #636845 ;
   transform: translate(19rem,-11rem);
+}
+
+#aboutImg {
+  z-index: 100;
 }
 
 /*starts contact screen*/
@@ -1504,7 +1509,7 @@ iframe {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 10rem;
+  padding-left: 22rem;
   padding-top: 10rem;
   width: 100%;
   margin: auto;
@@ -1772,6 +1777,7 @@ iframe {
   width: 100vw;
   background-color:  #e6ae69;
   padding-top: 20rem;
+  height: auto;
 }
 
 #spanBolsas {
@@ -1820,7 +1826,7 @@ iframe {
  position: relative;
   width: 18.75rem;
   height: 23.75rem;
-  transform: translate(7rem,-31rem);
+  transform: translate(-22rem,-3rem);
 }
 
 #HBolsas {
@@ -1848,8 +1854,10 @@ iframe {
 }
 
 .bolsaComp {
+  display: flex;
   margin: 1rem;
   height: 40rem;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 998px) {
