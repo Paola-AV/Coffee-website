@@ -1354,6 +1354,22 @@ justify-content: center;
 
 iframe {
   align-self: center;
+  margin-right: 5rem;
+}
+
+.mapP {
+  padding-top: 10rem;
+  padding-left: 23rem;
+  font-family: Lucida Bright,Georgia,serif;
+}
+
+.mapTittle {
+  color: #424530;
+}
+
+.color2 {
+  color: #636845;
+  font-weight: bold;
 }
 
 .mapIconDiv {
@@ -1361,7 +1377,7 @@ iframe {
   flex-direction: row;
   justify-content: flex-end;
   margin-top: 2rem;
-  margin-right: 8rem;
+  margin-right: 26.5rem;
 }
 
 #mapIcon{
