@@ -37,9 +37,9 @@ function Footer(){
             </div>
 
             <div id="footerIcons">
-                <a className="FooterLink" href="https://www.instagram.com/olikeycoffeeroasters/"><FaInstagram className="FooterIcon"/></a>
-                <a className="FooterLink" href="https://www.facebook.com/Olikeycoffeeroasters"><FaFacebookSquare className="FooterIcon"/></a>
-                <a className="FooterLink"><FaWhatsapp className="FooterIcon"/></a>
+                <a className="FooterLink" href="https://www.instagram.com/olikeycoffeeroasters/" target="_blank"><FaInstagram className="FooterIcon"/></a>
+                <a className="FooterLink" href="https://www.facebook.com/Olikeycoffeeroasters" target="_blank"><FaFacebookSquare className="FooterIcon"/></a>
+                <a className="FooterLink" target="_blank"><FaWhatsapp className="FooterIcon"/></a>
             </div>
         </section>
     )
