@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import Espresso from "./Espresso";
 
 function Menu() {
   const navigate=useNavigate()
@@ -13,7 +14,7 @@ function Menu() {
               <h2 id="compMenuH">Espresso</h2>
               <p id="compMenuP">Lorem ipsum dolor sit amet</p>
             </div>
-            <a id="menuBtn1">Conoce mas</a>
+            <a id="menuBtn1" href="Espresso">Conoce mas</a>
             <img id="imgMenu1" src="galeriaImg/vasoGaleria.png" />
           </div>
 

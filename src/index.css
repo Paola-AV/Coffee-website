@@ -835,6 +835,8 @@ nav {
 }
 
 /*starts contacto css*/
+
+
 #contactoDiv {
   background-color: #FFEFCD; 
   align-items: center;
@@ -858,6 +860,8 @@ nav {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: 90%;
+  padding-left: 8rem;
 }
 
 .inputDiv {
@@ -865,7 +869,6 @@ nav {
   flex-direction: column;
   padding: 0.5rem;
   font-family: Lucida Bright,Georgia,serif;
- 
 }
 
 #inputMensaje {
@@ -879,7 +882,7 @@ nav {
 
 #mensajeInput {
   height: 13.9375rem;
-  width: 71.875rem;
+  width: 66rem;
   border: none;
   border-radius: 1.875rem;
   padding: 1rem;
@@ -890,7 +893,7 @@ nav {
 
 .inputC {
   height: 3.125rem;
-  width: 21.75rem;
+  width: 19.75rem;
   border: none;
   border-radius: 2.3529rem;
 }
@@ -914,6 +917,7 @@ nav {
   align-items: center;
   border-radius: 1.25rem;
   box-shadow: 0.3125rem 0.3125rem 0.625rem -0.1875rem #888689de;
+  
 }
 
 .btnContacto {
@@ -1926,4 +1930,46 @@ iframe {
     box-shadow: 0 0.15rem 0.1875rem 0px rgba(61, 61, 61, 0.486);
   }
   
+}
+
+/*menu components css*/
+
+.menuComp {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  padding-top: 15rem;
+  background-color: #e6ae69;
+}
+
+.menuCompTittle {
+  padding-bottom: 10rem;
+  padding-top: 6rem;
+  font-size: 4rem;
+  color: #424530;
+}
+
+#compMenuImg {
+  width: 35rem;
+  height: auto;
+}
+
+.MenuCompRow1 {
+  width: 50vw;
+}
+
+.MenuCompRow2 {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  font-family: Lucida Bright,Georgia,serif;
+  align-items: center;
+}
+
+.menuCompTittleDiv {
+  padding-right: 9rem;
+}
+
+.menuItem {
+  padding: 2rem;
 }

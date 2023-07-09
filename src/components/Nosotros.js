@@ -11,6 +11,23 @@ function Nosotros() {
         <section id="nosotrosSec">
             <h1 id="aboutUsTittle"><span id="TittleColor1">Nuestra</span> Historia</h1>
 
+            <div id="aboutRowSwitch">
+                <div id="aboutImg">
+                    <img src="bosque.PNG" id="imgRoundSwitch" />
+                </div>
+                <div data-aos="fade-up">
+                <div id="aboutPSwitch">
+                    <h2 id="aboutTitleSwitch">Lorem Ipsum</h2>
+                    <p id="aboutParagraphSwitch">
+                        Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+                        Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
+                    </p>
+                </div>
+                </div>
+                 
+            </div>
+
+
             <div id="aboutRow">
                 <div id="aboutP" data-aos="fade-up">
                     <h2 id="aboutTitle">Lorem Ipsum</h2>

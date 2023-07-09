@@ -13,6 +13,7 @@ import GaleriaScreen from './components/GaleriaScreen';
 import Bolsas from './components/Bolsas';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavbarComp from './components/NavbarComp';
+import Espresso from './components/Espresso';
 
 
 
@@ -29,6 +30,7 @@ function App() {
         <Route path='Galeria' element={<GaleriaScreen/>}></Route>
         <Route path='Productos' element={<Bolsas/>}></Route>
         <Route path='Talleres' element={<Talleres/>}></Route>
+        <Route path='Espresso' element={<Espresso/>}></Route>
       </Routes>
       <Footer/>
     </>
