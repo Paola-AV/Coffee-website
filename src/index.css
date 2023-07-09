@@ -1508,7 +1508,7 @@ iframe {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 10rem;
+  padding-left: 22rem;
   padding-top: 10rem;
   width: 100%;
   margin: auto;
@@ -1906,4 +1906,46 @@ iframe {
     box-shadow: 0 0.15rem 0.1875rem 0px rgba(61, 61, 61, 0.486);
   }
   
+}
+
+/*menu components css*/
+
+.menuComp {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  padding-top: 15rem;
+  background-color: #e6ae69;
+}
+
+.menuCompTittle {
+  padding-bottom: 10rem;
+  padding-top: 6rem;
+  font-size: 4rem;
+  color: #424530;
+}
+
+#compMenuImg {
+  width: 35rem;
+  height: auto;
+}
+
+.MenuCompRow1 {
+  width: 50vw;
+}
+
+.MenuCompRow2 {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  font-family: Lucida Bright,Georgia,serif;
+  align-items: center;
+}
+
+.menuCompTittleDiv {
+  padding-right: 9rem;
+}
+
+.menuItem {
+  padding: 2rem;
 }
