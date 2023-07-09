@@ -9,7 +9,7 @@ function Inicio() {
         <section class="row align-items-start" id="inicio">
             <div class="col-4" id="col1">
                 <div id="txtInicio">
-                    <h1>Lorem Ipsum</h1>
+                    <h1>STAY CAFFEINATED</h1>
                     <p class="pInicio">Lorem ipsum dolor sit amet,<br />consectetur adipiscing elit</p>
                 </div>
                 <div id="butInicio">
