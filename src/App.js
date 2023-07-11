@@ -14,6 +14,9 @@ import Bolsas from './components/Bolsas';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavbarComp from './components/NavbarComp';
 import Espresso from './components/Espresso';
+import Lattes from './components/Lattes';
+import Infusiones from './components/Infusiones';
+import Metodos from './components/Metodos';
 
 
 
@@ -31,6 +34,10 @@ function App() {
         <Route path='Productos' element={<Bolsas/>}></Route>
         <Route path='Talleres' element={<Talleres/>}></Route>
         <Route path='Espresso' element={<Espresso/>}></Route>
+        <Route path='Lattes' element={<Lattes/>}></Route>
+        <Route path='Infusiones' element={<Infusiones/>}></Route>
+        <Route path='Metodos' element={<Metodos/>}></Route>
+
       </Routes>
       <Footer/>
     </>

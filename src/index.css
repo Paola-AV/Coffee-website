@@ -645,7 +645,7 @@ nav {
   border-radius: 50%;
   height: 10rem;
   width: 10rem;
-  transform: translate(4rem,-15rem);
+  transform: translate(6rem,-15rem);
 }
 
 #imgMenu1 {
@@ -653,7 +653,7 @@ nav {
   border-radius: 50%;
   height: 10rem;
   width: 10rem;
-  transform: translate(12rem,-14.6rem);
+  transform: translate(16rem,-14.6rem);
 }
 
 #compMenuH {
@@ -671,10 +671,11 @@ nav {
   padding: 0.7rem;
   border-radius: 50rem;
   width: 100%;
-  max-width: 16%;
+  max-width: 14%;
   justify-self: center;
   align-self: center;
   margin-top: 1rem;
+  text-decoration: none;
 }
 
 #menuBtn1 {
@@ -682,11 +683,12 @@ nav {
   color: white;
   padding: 0.7rem;
   border-radius: 50rem;
-  width: 17%;
+  width: 15%;
   justify-self: center;
   align-self: center;
   transform: translateX(9rem);
   margin-top: 1rem;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 1560px) {
@@ -878,6 +880,7 @@ nav {
   font-family: Lucida Bright,Georgia,serif;
   justify-content: center;
   align-items: center;
+  padding-right: 5rem;
 }
 
 #mensajeInput {
@@ -901,7 +904,7 @@ nav {
 .inputC:focus {outline:none !important}
 
 #mensaje {
-  transform: translateX(-33rem);
+  transform: translateX(-30rem);
   padding-bottom: 0.7rem;
 }
 
@@ -946,7 +949,7 @@ label {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  transform: translateX(-7rem);
+  transform: translateX(-6rem);
 }
 
 @media only screen and (max-width: 1140px) {
@@ -1094,6 +1097,7 @@ label {
   display: flex;
   flex-direction: row;
   background-color: #e6ae69;
+  font-family: Lucida Bright,Georgia,serif;
 }
 
 #logo {

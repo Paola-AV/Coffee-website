@@ -23,7 +23,7 @@ function Menu() {
               <h2 id="compMenuH">Infusiones</h2>
               <p id="compMenuP">Lorem ipsum dolor sit amet</p>
             </div>
-            <a id="menuBtn1">Conoce mas</a>
+            <a id="menuBtn1" href="Infusiones">Conoce mas</a>
             <img id="imgMenu1" src="copa1.png" />
           </div>
         </div>
@@ -34,7 +34,7 @@ function Menu() {
               <h2 id="compMenuH">Lattes</h2>
               <p id="compMenuP">Lorem ipsum dolor sit amet</p>
             </div>
-            <a id="menuBtn">Conoce mas</a>
+            <a id="menuBtn" href="Lattes">Conoce mas</a>
             <img id="imgMenu" src="latte.png" />
           </div>
 
@@ -43,7 +43,7 @@ function Menu() {
               <h2 id="compMenuH">metodos de infusion</h2>
               <p id="compMenuP">Lorem ipsum dolor sit amet</p>
             </div>
-            <a id="menuBtn">Conoce mas</a>
+            <a id="menuBtn" href="Metodos">Conoce mas</a>
             <img id="imgMenu" src="menuPouring.png" />
           </div>
 
