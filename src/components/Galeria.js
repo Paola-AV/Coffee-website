@@ -20,73 +20,39 @@ function Galeria() {
          <div id="tittleGal">
               <h1 id="tittleGaleria">Galeria</h1>
           </div>
-            <div className="container">
+          <div className="container">
               <Swiper
-                  effect={'coverflow'}
-                  grabCursor={true}
-                  centeredSlides={true}
-                  loop={true}
+                  spaceBetween={50}
                   slidesPerView={6}
-            breakpoints={{
-              0: {
-                slidesPerView: 1,
-              },
-              400:{
-                slidesPerView:2,
-              },
-              639: {
-                slidesPerView: 3,
-              },
-              865:{
-                slidesPerView:4
-              },
-              1000:{
-                slidesPerView:5
-              },
-              1500:{
-                slidesPerView:6
-              },
-              1700:{
-                slidesPerView:7
-              }
-            }}
-                  coverflowEffect={{
-                      rotate: 0,
-                      stretch: 0,
-                      depth: 100,
-                      modifier: 2.5,
+                  onSlideChange={() => console.log('slide change')}
+                  onSwiper={(swiper) => console.log(swiper)}
+                  breakpoints={{
+                    0: {
+                      slidesPerView: 1,
+                    },
+                    400:{
+                      slidesPerView:2,
+                    },
+                    639: {
+                      slidesPerView: 3,
+                    },
+                    865:{
+                      slidesPerView:4
+                    },
+                    1000:{
+                      slidesPerView:5
+                    },
+                    1500:{
+                      slidesPerView:6
+                    },
+                    1700:{
+                      slidesPerView:7
+                    }
                   }}
-                  pagination={{ el: '.swiper-pagination', clickable: true }}
-                  navigation={{
-                      nextEl: '.swiper-button-next',
-                      prevEl: '.swiper-button-prev',
-                      clickable: true,
-                  }}
-                  modules={[EffectCoverflow, Pagination, Navigation]}
-                  className="swiper_container"
               >
-                <div id='swip'>
-                <SwiperSlide>
-                      <img src={slide_image_1} alt="slide_image" />
-                  </SwiperSlide>
-                  <SwiperSlide>
-                      <img src={slide_image_2} alt="slide_image" />
-                  </SwiperSlide>
-                  <SwiperSlide>
-                      <img src={slide_image_3} alt="slide_image" />
-                  </SwiperSlide>
-                </div>
-                  
-
-                  <div className="slider-controler">
-                      <div className="swiper-button-prev slider-arrow">
-                          <ion-icon name="arrow-back-outline"></ion-icon>
-                      </div>
-                      <div className="swiper-button-next slider-arrow">
-                          <ion-icon name="arrow-forward-outline"></ion-icon>
-                      </div>
-                      <div className="swiper-pagination"></div>
-                  </div>
+                  <SwiperSlide><img src={slide_image_1} alt="slide_image" /></SwiperSlide>
+                  <SwiperSlide><img src={slide_image_2} alt="slide_image" /></SwiperSlide>
+                  <SwiperSlide><img src={slide_image_3} alt="slide_image" /></SwiperSlide>
               </Swiper>
           </div>
     </section>
@@ -95,7 +61,9 @@ function Galeria() {
 
 export default Galeria;
 
-/*<div id="bow"></div>
+/*
+<img src={slide_image_2} alt="slide_image" />
+<div id="bow"></div>
       <div id='centerC'>
               <Carousel id="carHolder">
                   <Carousel.Item id='carousel'>
