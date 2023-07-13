@@ -21,39 +21,48 @@ function Galeria() {
               <h1 id="tittleGaleria">Galeria</h1>
           </div>
           <div className="container">
-              <Swiper
-                  spaceBetween={50}
-                  slidesPerView={6}
-                  onSlideChange={() => console.log('slide change')}
-                  onSwiper={(swiper) => console.log(swiper)}
-                  breakpoints={{
-                    0: {
-                      slidesPerView: 1,
-                    },
-                    400:{
-                      slidesPerView:2,
-                    },
-                    639: {
-                      slidesPerView: 3,
-                    },
-                    865:{
-                      slidesPerView:4
-                    },
-                    1000:{
-                      slidesPerView:5
-                    },
-                    1500:{
-                      slidesPerView:6
-                    },
-                    1700:{
-                      slidesPerView:7
-                    }
-                  }}
-              >
-                  <SwiperSlide><img src={slide_image_1} alt="slide_image" /></SwiperSlide>
-                  <SwiperSlide><img src={slide_image_2} alt="slide_image" /></SwiperSlide>
-                  <SwiperSlide><img src={slide_image_3} alt="slide_image" /></SwiperSlide>
-              </Swiper>
+          <Swiper
+        effect={'coverflow'}
+        grabCursor={true}
+        centeredSlides={true}
+        loop={true}
+        slidesPerView={'auto'}
+        coverflowEffect={{
+          rotate: 0,
+          stretch: 0,
+          depth: 100,
+          modifier: 2.5,
+        }}
+        pagination={{ el: '.swiper-pagination', clickable: true }}
+        navigation={{
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+          clickable: true,
+        }}
+        modules={[EffectCoverflow, Pagination, Navigation]}
+        className="swiper_container"
+      >
+        <SwiperSlide>
+          <img src={slide_image_1} alt="slide_image" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={slide_image_2} alt="slide_image" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={slide_image_3} alt="slide_image" />
+        </SwiperSlide>
+     
+
+        <div className="slider-controler">
+          <div className="swiper-button-prev slider-arrow">
+            <ion-icon name="arrow-back-outline"></ion-icon>
+          </div>
+          <div className="swiper-button-next slider-arrow">
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+          </div>
+          <div className="swiper-pagination"></div>
+        </div>
+      </Swiper>
           </div>
     </section>
   );

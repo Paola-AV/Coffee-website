@@ -445,12 +445,6 @@ nav {
 }
 
 
-.swiper-slide {
-  width: 37rem;
-  height: 42rem;
-  position: relative;
-}
-
 @media (max-width: 500px) {
   .swiper_container {
     height: 47rem;
